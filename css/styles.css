@@ -1,0 +1,43 @@
+body {
+    background-color: #f8f9fa !important;
+    margin: 0;
+    padding: 4%;
+}
+
+header.fixed {
+    position: fixed !important;
+    width: 100%;
+    z-index: 999;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+}
+
+
+header .default-header {
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.logo {
+    height: 100px !important;
+    width: 100px !important;
+}
+.gallery {
+    padding-top: 130px;
+}
+svg {
+    margin-right: 10px;
+}
+.copyfontsize {
+    font-size: small;
+}
+.hover-overlay:hover {
+    opacity: 0.8;
+    transition: opacity 0.3s;
+}
