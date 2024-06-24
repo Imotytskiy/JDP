@@ -34,9 +34,9 @@ header .default-header {
 .gallery {
     padding-top: 70px;
 }
-/* svg {
+svg {
     margin-right: 10px;
-} */
+}
 .copyfontsize {
     font-size: small;
 }
