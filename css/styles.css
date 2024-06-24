@@ -45,11 +45,6 @@ svg {
     transition: opacity 0.3s;
 }
 
-/* @media (max-width: 768px) { */
-.gallerymd {
-    margin-bottom: 0 !important;
-}
-/* } */
 
 .switch {
     position: relative;
@@ -149,4 +144,11 @@ svg {
   
   input.check-toggle-round-flat:checked + label:after {
     margin-left: 44px;
+  }
+  @media screen and (max-width: 768px) {
+    .mobilecopyright {
+        margin-left: auto ;
+        margin-right:auto;
+        text-align: center;
+    }
   }
