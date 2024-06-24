@@ -9,6 +9,8 @@ header.fixed {
     width: 100%;
     z-index: 999;
     background-color: rgba(255, 255, 255, 0.8);;
+    padding-left: 3%;
+    padding-right: 3%;
     top: 0;
     left: 0;
 }
@@ -24,12 +26,6 @@ header .default-header {
     margin-left: auto;
 }
 
-nav{
-    
-        opacity: 0.8;
-      
-        
-}
 
 .logo {
     height: 100px !important;
