@@ -1,29 +1,36 @@
-import i18next from 'i18next';
-
-// Ініціалізація i18next
-i18next.init({
-  lng: 'en', // початкова мова
-  debug: true, // режим налагодження
-  resources: {
-    en: {
-      translation: {
-        "welcome": "Welcome to our website!",
-        "description": "This is an example of i18next integration."
-      }
-    },
-    uk: {
-      translation: {
-        "welcome": "Ласкаво просимо на наш сайт!",
-        "description": "Це приклад інтеграції i18next."
-      }
-    }
+const langdata = {
+  "languages": {
+      "en": {
+          "strings": {
+              "portfolio": "portfolio",
+              "about": "about me",
+              "contact": "contact"
+          }
+      },
+      "pl": {
+          "strings": {
+              "portfolio": "portfolio",
+              "about": "o mnie",
+              "contact": "contacts"
+          }
+      },
   }
-}, function(err, t) {
-  // Ініціалізація завершена, переклад доступний через функцію t
-  updateContent();
-});
+};
 
-function updateContent() {
-  document.getElementById('welcome').innerHTML = i18next.t('welcome');
-  document.getElementById('description').innerHTML = i18next.t('description');
-}
+
+document.addEventListener('DOMContentLoaded', () => {
+  const toggle = document.getElementById('language-toggle');
+  const portfolio = document.getElementById('portfolio');
+  const about = document.getElementById('about');
+  const contact = document.getElementById('contact');
+
+  const updateTextContent = () => {
+      const lang = toggle.checked ? 'pl' : 'en';
+      portfolio.textContent = langdata.languages[lang].strings['portfolio'];
+      about.textContent = langdata.languages[lang].strings['about'];
+      contact.textContent = langdata.languages[lang].strings['contact'];
+  };
+
+  toggle.addEventListener('change', updateTextContent);
+  updateTextContent(); // Initial call to set the correct language on load
+});
