@@ -1,22 +1,4 @@
-const langdata = {
-  "languages": {
-      "en": {
-          "strings": {
-              "portfolio": "portfolio",
-              "about": "about me",
-              "contact": "contact"
-          }
-      },
-      "pl": {
-          "strings": {
-              "portfolio": "portfolio",
-              "about": "o mnie",
-              "contact": "contacts"
-          }
-      },
-  }
-};
-
+import langdata from "./langdata.js";
 
 document.addEventListener('DOMContentLoaded', () => {
   const toggle = document.getElementById('language-toggle');
