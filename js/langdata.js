@@ -4,14 +4,16 @@ const langdata = {
             "strings": {
                 "portfolio": "PORTFOLIO",
                 "about": "ABOUT ME",
-                "contact": "CONTACTS"
+                "contact": "CONTACTS",
+                "price": "PRICE"
             }
         },
         "pl": {
             "strings": {
                 "portfolio": "PORTFOLIO",
                 "about": "O MNIE",
-                "contact": "KONTAKT"
+                "contact": "KONTAKT",
+                "price": "CENA"
             }
         },
     }

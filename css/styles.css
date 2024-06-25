@@ -28,8 +28,8 @@ header .default-header {
 
 
 .logo {
-    height: 100px !important;
-    width: 100px !important;
+    height: 80px !important;
+    width: 80px !important;
 }
 .gallery {
     padding-top: 70px;
@@ -215,4 +215,7 @@ p {
 
 .first-text {
   padding-top: 15px;
+}
+.rounded {
+  border-radius: 0 !important;
 }
