@@ -191,3 +191,23 @@ svg {
 .home-photography .page-title {
   display: inline-block;
 }
+@media (min-width: 1200px) {
+  .container {
+      width: 1170px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+      width: 970px;
+  }
+}
+.container, .container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+}
+.about .about-info p {
+  margin: 0;
+}
+p {
+  margin: 0 0 10px;
+}
