@@ -182,6 +182,7 @@ svg {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
+  
 }
 
 .home-photography .page-title {
@@ -210,4 +211,8 @@ svg {
 }
 p {
   margin: 0 0 10px;
+}
+
+.first-text {
+  padding-top: 15px;
 }
