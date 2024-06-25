@@ -39,7 +39,7 @@ header .default-header {
 @media screen and (max-width: 450px) {
   .navbar-toggler {
     padding: .25rem .75rem;
-    font-size: .75rem !important;
+    font-size: .1rem !important;
     line-height: 1;
     background-color: transparent;
     border: 1px solid transparent;
