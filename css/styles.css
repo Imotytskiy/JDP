@@ -204,9 +204,12 @@ header .default-header {
   .container {
       width: 970px;
   }
-  /* .navbar-off{
-    display: display: none;
-  } */
+  .mb-clear{
+    margin-bottom: 0 !important;
+  }
+}
+.mb-clear{
+  margin-bottom: 0 !important;
 }
 .container, .container-fluid {
   margin-right: auto;
