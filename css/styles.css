@@ -43,8 +43,8 @@ header .default-header {
     font-size: small;
 }
 .hover-overlay:hover {
-    opacity: 0.8;
-    transition: opacity 0.3s;
+    opacity: 0.4;
+    transition: opacity 0.4s;
 }
 
 
@@ -226,8 +226,8 @@ p {
   border-radius: 0 !important;
 }
 .lang-switch {
-  position: relative;
-    display: inline-block;
+  /* position: relative; */
+    display: block;
     padding-top: 3px;
     margin: 0;
     /* top: 19px; */
