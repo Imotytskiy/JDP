@@ -138,9 +138,7 @@ svg {
     -o-transition: margin 0.2s;
     transition: margin 0.2s;
   }
-  
-  input.check-toggle-round-flat:checked + label {
-  }
+ 
   
   input.check-toggle-round-flat:checked + label:after {
     margin-left: 44px;
@@ -152,3 +150,44 @@ svg {
         text-align: center;
     }
   }
+  /* about */
+  .home-photography {
+    position: relative;
+    width: 100%;
+    height: 550px;
+    overflow: hidden;
+}
+.loader, .owl-carousel-no-slider {
+  height: 100%;
+}
+@media screen and (max-width: 768px) {
+  .contact-map #map, .home-photography, .home-photography #photography-slider .owl-item {
+      height: 400px;
+  }
+}
+.home-photography .head-photo {
+  display: table;
+  table-layout: fixed;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
+.home-photography .title-holder {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.home-photography .page-title {
+  font-family: Abril Fatface !important;
+}
+
+.home-photography .page-title {
+  display: inline-block;
+}
