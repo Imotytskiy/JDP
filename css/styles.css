@@ -198,9 +198,13 @@ svg {
   }
 }
 @media (min-width: 992px) {
+  
   .container {
       width: 970px;
   }
+  /* .navbar-off{
+    display: display: none;
+  } */
 }
 .container, .container-fluid {
   margin-right: auto;

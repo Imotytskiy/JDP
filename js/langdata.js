@@ -16,6 +16,22 @@ const langdata = {
                 "price": "CENA"
             }
         },
+        "uk": {
+            "strings": {
+                "portfolio": "ПОРТФОЛІО",
+                "about": "ПРО МЕНЕ",
+                "contact": "КОНТАКТИ",
+                "price": "ЦІНА"
+            }
+        },
+        "ru": {
+            "strings": {
+                "portfolio": "ПОРТФОЛИО",
+                "about": "ОБО МНЕ",
+                "contact": "КОНТАКТЫ",
+                "price": "ЦЕНА"
+            }
+        }
     }
 };
 
