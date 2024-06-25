@@ -219,3 +219,19 @@ p {
 .rounded {
   border-radius: 0 !important;
 }
+.lang-switch {
+  position: relative;
+    display: inline-block;
+    margin: 0 5px;
+  /* top: 19px;
+  right: 120px; */
+} 
+.pll-switcher-select {
+  padding: 6px 10px;  
+  border: none;
+  border-radius: 4px  ;
+  color: #fff;
+  background:#babbbc;
+  text-transform: uppercase;
+  outline: none;
+}
