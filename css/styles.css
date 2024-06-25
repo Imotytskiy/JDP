@@ -1,5 +1,5 @@
 body {
-    background-color: #f8f9fa !important;
+    background-color: white !important;
     margin: 0;
     padding: 4%;
 }
@@ -8,7 +8,7 @@ header.fixed {
     position: fixed !important;
     width: 100%;
     z-index: 999;
-    background-color: #f8f9fa;
+    background-color: white;
     padding-left: 3%;
     padding-right: 3%;
     top: 0;
