@@ -39,12 +39,13 @@ header .default-header {
 @media screen and (max-width: 450px) {
   .navbar-toggler {
     padding: .25rem .75rem;
-    font-size: .1rem !important;
+    font-size: 1rem !important; /* Збільшено значення font-size для читабельності */
     line-height: 1;
     background-color: transparent;
     border: 1px solid transparent;
     border-radius: .25rem;
-} }
+  }
+}
 .gallery {
     padding-top: 70px;
 }
