@@ -260,3 +260,43 @@ p {
   text-transform: uppercase;
   outline: none;
 }
+
+
+
+
+
+
+.text-mes {
+    position: relative;
+    display: inline-block;
+}
+
+.text-mes a {
+    display: block;
+    position: relative;
+    text-decoration: none;
+}
+
+.text-mes img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(138, 135, 135);
+/* Optional: add a background to the text for better readability */
+    padding: 10px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none; /* Ensure the text does not interfere with clicking the link */
+}
+
+.text-mes:hover .overlay-text {
+    opacity: 1;
+}
