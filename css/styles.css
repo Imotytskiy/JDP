@@ -300,3 +300,24 @@ p {
 .text-mes:hover .overlay-text {
     opacity: 1;
 }
+
+
+
+
+@media screen and (max-width: 375px) {
+  .project-single {
+      padding: 30px 0 0;
+  }
+}
+
+
+@media screen and (max-width: 615px) {
+  .project-single {
+      padding: 30px 0;
+  }
+} 
+
+
+.project-single {
+  padding: 50px 0;
+}
