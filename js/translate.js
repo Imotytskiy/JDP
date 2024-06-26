@@ -14,7 +14,6 @@ document.addEventListener('DOMContentLoaded', () => {
         about.textContent = langdata.languages[lang].strings['about'];
         contact.textContent = langdata.languages[lang].strings['contact'];
         price.textContent = langdata.languages[lang].strings['price'];
-        console.log("Language set to local:", localStorage.getItem('language'));
     };
 
     // Check if a language is stored in localStorage and set the dropdown value accordingly
