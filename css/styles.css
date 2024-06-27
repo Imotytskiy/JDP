@@ -248,18 +248,20 @@ p {
     display: block;
     padding-top: 3px;
     margin: 0;
+    border: #080808;
+    border: 2px 2px ;
     /* top: 19px; */
     right: 20px;
 } 
 .pll-switcher-select {
   padding: 4px 6px;
-  /* font-size: small; */
-  border: none;
+  font-size: small;
+  border: 2px;
   border-radius: 3px  ;
-  color: #fff;
-  background:#bdbec0;
+  color: #080808;
+  background:white;
   text-transform: uppercase;
-  outline: none;
+  outline:#080808;
 }
 
 
