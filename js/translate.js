@@ -29,3 +29,29 @@ document.addEventListener('DOMContentLoaded', () => {
     // Add the event listener to the dropdown
     langSelect.addEventListener('change', updateTextContent);
 });
+
+
+document.getElementById('navbar-toggler').addEventListener('click', function() {
+    var button = this;
+    var icon = button.querySelector('i');
+  
+    setTimeout(function() { // Use a timeout to wait for the attribute to be updated
+      if (button.getAttribute('aria-expanded') === 'true') {
+        if (icon) {
+          icon.className = 'bi bi-x-lg';
+        } else {
+          var newIcon = document.createElement('i');
+          newIcon.className = 'bi bi-x-lg';
+          button.appendChild(newIcon);
+        }
+      } else {
+        if (icon) {
+          icon.className = 'bi bi-list';
+        } else {
+          var newIcon = document.createElement('i');
+          newIcon.className = 'bi bi-list';
+          button.appendChild(newIcon);
+        }
+      }
+    }, 0);
+  });
