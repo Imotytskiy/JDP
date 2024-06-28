@@ -149,7 +149,8 @@ header .default-header {
     user-select: none;
   }
  .black{
-  color: #080808 !important;
+  color:  #080808 !important;
+  font-size: 1.2rem;
  }
   
   input.check-toggle-round-flat + label {
