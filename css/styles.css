@@ -24,8 +24,39 @@ header .default-header {
 
 .navbar-nav {
     margin-left: auto;
+    
 }
 
+
+.nav-link {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  /* color: inherit; Keep the text color unchanged */
+  transition: color 0.3s ease;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #000; /* Change the color as needed */
+  transform-origin: bottom right;
+  transition: transform 0.3s ease;
+}
+
+.nav-link:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.nav-link:hover {
+  color: #000; /* Change the text color on hover if needed */
+}
 
 .logo {
     height: 80px;
