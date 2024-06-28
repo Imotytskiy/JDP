@@ -148,6 +148,9 @@ header .default-header {
     -ms-user-select: none;
     user-select: none;
   }
+ .black{
+  color: #080808 !important;
+ }
   
   input.check-toggle-round-flat + label {
     padding: 2px;
@@ -355,12 +358,3 @@ p {
 .project-single {
   padding: 50px 0;
 }
-.icon-large {
-  font-size: 3rem;
-  color: black; /* Устанавливаем размер иконки */
-}
-
-/* .icon-black {
-  font-size: 3rem; /* Устанавливаем размер иконки */
-  color: black; /* Устанавливаем черный цвет для иконки */
-} */
