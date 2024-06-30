@@ -6,6 +6,10 @@ const langdata = {
                 "about": "ABOUT ME",
                 "contact": "CONTACTS",
                 "price": "PRICE"
+            },
+            "about":{ 
+                "header": "Design for living",
+
             }
         },
         "pl": {
@@ -23,6 +27,7 @@ const langdata = {
                 "contact": "КОНТАКТИ",
                 "price": "ЦІНА"
             }
+            
         },
         "ru": {
             "strings": {
