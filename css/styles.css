@@ -214,7 +214,7 @@ header .default-header {
 }
 @media screen and (max-width: 768px) {
   .contact-map #map, .home-photography, .home-photography #photography-slider .owl-item {
-      height: 400px;
+      height: 240px;
   }
 }
 .home-photography .head-photo {
