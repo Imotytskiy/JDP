@@ -206,7 +206,7 @@ header .default-header {
   .home-photography {
     position: relative;
     width: 100%;
-    height: 550px;
+    height: 280px;
     overflow: hidden;
 }
 .loader, .owl-carousel-no-slider {
@@ -222,7 +222,7 @@ header .default-header {
   table-layout: fixed;
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 250px;
   background-position: center;
   background-repeat: no-repeat;
   -webkit-background-size: cover;
