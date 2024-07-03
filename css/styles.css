@@ -96,6 +96,17 @@ header .default-header {
     border-radius: .25rem;
   }
 }
+
+.main-photo-project {
+  position: relative;
+     width: 100vw;
+     left: 50%;
+     right: 50%;
+     margin-left: -50vw;
+     margin-right: -50vw;
+}
+
+
 .gallery {
     padding-top: 70px;
 }
