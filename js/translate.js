@@ -1,5 +1,4 @@
-import { Panzoom } from "@fancyapps/ui/dist/panzoom/panzoom.esm.js";
-import "@fancyapps/ui/dist/panzoom/panzoom.css";
+
 import langdata from "./langdata.js";
 
 document.addEventListener('DOMContentLoaded', () => {
