@@ -7,8 +7,7 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <title>Interior Design</title>
-    <link rel="icon" href="/images/Logo-design-studio-YM-1000-1000.png" type="image/png">
-    <script type="module" src="js/translate.js" defer></script>
+    <script type="module" src="../js/translate.js" defer></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -16,7 +15,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
@@ -27,172 +26,227 @@
     />
   </head>
   <body>
+    <section class="gallery" style="width: 80%; margin-left: auto; margin-right: auto;"></section>
     <header class="fixed">
       <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="#">
-          <img class="logo" src="images/Logo-design-studio-YM-1000-1000.png" />
+          <img class="logo" src="../images/Logo-design-studio-YM-1000-1000.png" />
         </a>
-        <a
-        id="navbar-toggler"
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarTogglerDemo03"
-        aria-controls="navbarTogglerDemo03"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-        style="border: none !important;"
-      >
-        <i class="bi bi-list" style="font-size: 2rem; color: rgb(0, 0, 0);" ></i>
-      </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarTogglerDemo03"
+          aria-controls="navbarTogglerDemo03"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
           <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          
             <li class="nav-item">
-              <a id="portfolio" class="nav-link" style="color: black;" href="index.html">portfolio</a>
+              <a id="portfolio" class="nav-link" href="../index.html"></a>
             </li>
             <li class="nav-item">
-              <a id="about" class="nav-link" style="color: black;" href="html/about.html">o mnie</a>
+              <a id="about" class="nav-link" href="../index.html"></a>
             </li>
             <li class="nav-item">
-              <a id="price" class="nav-link" style="color: black;" href="html/price.html">CENA</a>
+              <a id="price" class="nav-link" href="../index.html"></a>
             </li>
             <li class="nav-item">
-              <a id="contact" class="nav-link" style="color: black;" href="html/contacts.html"
-                >kontakt</a
-              >
+              <a id="contact" class="nav-link" href="../index.html"></a>
             </li>
-            <li class="nav-item">
+            <li class="ms-3">
               <a
-                class="" style="display: block;
-    padding: .3rem .6rem;"
+                class="nav-link text-muted"
                 href="https://www.facebook.com/share/r/B4MegvRd9iLP6rMq/?mibextid=WC7FNe">
-                <img src="images/icons/facebook.svg" loading="lazy" width="22px" height="22px" alt="Facebook Icon">
+                <img src="../images/icons/facebook.svg" loading="lazy" width="20px" height="19px" alt="Facebook Icon">
+          
               </a>
             </li>
-            <li class="nav-item" >
-              <a
-                class="" style="display: block;
-    padding: .3rem .6rem;"
-                href="https://www.facebook.com/profile.php?id=100013528336978"
+            <li class="ms-3">
+              <a class="text-muted nav-link" href="https://www.instagram.com/interior_yulia/"
+          >
+          <img src="../images/icons/instagram.svg" loading="lazy" width="18px" height="19px" alt="Instagram Icon">
+        
+        </a>
+            </li>
+            <li class="nav-item">
+              <div class="lang-switch">
+                <select
+                  name="lang_choice_1"
+                  id="lang_choice_1"
+                  class="pll-switcher-select"
                 >
-                <img src="images/icons/instagram.svg" loading="lazy" width="22px" height="22px" alt="Instagram Icon">
-                
-              </a>
-            </li>
-            <li class="lang-switch ">
-              <select name="lang_choice_1" id="lang_choice_1" class="pll-switcher-select" style="display: block;
-    padding: .3rem .6rem;">
-                <option value="pl" lang="pl-PL" selected="selected">pl</option>
-                <option value="en" lang="en-US">en</option>
+                  <option value="pl" lang="pl-PL" selected="selected">
+                    pl
+                  </option>
+                  <option value="en" lang="en-US">en</option>
                   <option value="uk" lang="uk">ua</option>
                   <!-- <option value="ru" lang="ru-RU">ru</option> -->
-              </select>
-          </li>
+                </select>
+              </div>
+            </li>
           </ul>
         </div>
       </nav>
     </header>
-
-
-    
-    <section class="gallery">
-      <div class="row">
-        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0 pading-left-right">
-
-          <div class="text-mes">
-            <a href="html/warsaw.html">
-                <div class="overlay-text black" >House in Warsaw</div>
-                <img src="images/warsaw/3.jpg" class="gallerymd w-100 shadow-1-strong mb-4 hover-overlay" alt="Boat on Calm Water" />
-            </a>
-        </div> 
-        <div class="text-mes">
-          <a href="html/kyiv81ap.html">
-            <div class="overlay-text black">Apartment 81 Misto Kvitiv</div>
-          <img
-            src="images/kyiv81ap/IMG_7049.JPG"
-            class="w-100 shadow-1-strong hover-overlay mb-clear"
-            alt="Wintry Mountain Landscape"
-          />
-        </a>
-      </div>
-        </div>
-
-        <div class="col-lg-4 mb-4 mb-lg-0">
-          <div class="text-mes">
-            <a href="html/marbella.html">
-              <div class="overlay-text black">Art bakery & Wine, Marbella, Spain</div>
-          <img
-            src="images/marbella/3.jpg"
-            class="w-100 shadow-1-strong  hover-overlay mb-clear"
-            alt="Yosemite National Park"
-          />
-        </a>
-      </div>
-        </div>
-
-        <div class="col-lg-4 mb-4 mb-lg-0">
-          <div class="text-mes">
-            <a href="html/kyiv118ap.html">
-              <div class="overlay-text black">Apartment 118 Misto Kvitiv</div>
-          <img
-          src="images/kyiv118ap/1.jpg"
-          class="w-100 shadow-1-strong mb-4 hover-overlay"
-          alt="Boat Calm Water"
+     <div class="main-photo-project">
+        <img class="width-full"
+          src="../images/kyivgalaxy/6.jpg"
+          class="gallerymd w-100 shadow-1-strong mb-4"
+          alt="House in Warsaw"
         />
-      </a>
-    </div>
-    <div class="text-mes">
-      <a href="html/kyivseven.html">
-        <div class="overlay-text black">Apartment Seven, Kyiv, Ukraine</div>
-          <img
-          src="images/kyivseven/kitchen1.jpg"
-          class="gallerymd w-100 shadow-1-strong mb-4 hover-overlay"
-          alt="Boat on Calm Water"
-          />
-        </a>
       </div>
-      <div class="text-mes">
-        <a href="html/kyivgalaxy.html">
-          <div class="overlay-text black">Apartment Galaxy</div>
-          <img
-            src="images/kyivgalaxy/6.jpg"
-            class="w-100 shadow-1-strong mb-4 hover-overlay"
-            alt="Waves at Sea"
-          />
-        </a>
-      </div>
+      <section class="gallery project-gallery" >
+      <div class="project-description">
+        <h2>Eu_150m²</h2>
+        
+        <p><strong>metraż</strong>: 150 m²</p>
+        <p>
+          <strong>architektura</strong>: mieszkanie 5 pokojowe z dwoma
+          łazienkami
+        </p>
+        <p>
+          <strong>materiały:</strong> przyciemniany i bielony dąb w połączeniu z
+          kamieniem Taj Mahal, oliwkowa zieleń, nie regularna faktura ścian,
+          małe płytki
+        </p>
+        <p><strong>projektowanie:</strong> 2021 r</p>
 
-          
         </div>
       </div>
+      
+      
+        <div class="lightbox" data-mdb-lightbox-init>
+        <div class="row">
+          <div class="col-lg-6">
+            <img
+            src="../images/kyivgalaxy/4.jpg"
+              data-mdb-img="../images/warsaw/final 1.jpg"
+              alt="Coconut with Strawberries"
+              class="w-100 mb-2 mb-md-4 shadow-1-strong"
+            />
+            <img
+            src="../images/kyivgalaxy/12.jpg"
+              data-mdb-img="../images/warsaw/2 (2).jpg"
+              alt="Coconut with Strawberries"
+              class="w-100 mb-2 mb-md-4 shadow-1-strong"
+            />
+          
+          <img
+            src="../images/kyivgalaxy/22.jpg"
+              data-mdb-img="../images/warsaw/2 (2).jpg"
+              alt="Coconut with Strawberries"
+              class="w-100 mb-2 mb-md-4 shadow-1-strong"
+            />
+            <img
+            src="../images/kyivgalaxy/32.jpg"
+              data-mdb-img="../images/warsaw/2 (2).jpg"
+              alt="Coconut with Strawberries"
+              class="w-100 mb-2 mb-md-4 shadow-1-strong"
+            />
+            <img
+            src="../images/kyivgalaxy/3.jpg"
+              data-mdb-img="../images/warsaw/2 (2).jpg"
+              alt="Coconut with Strawberries"
+              class="w-100 mb-2 mb-md-4 shadow-1-strong"
+            />
+            <img
+            src="../images/kyivgalaxy/4.jpg"
+              data-mdb-img="../images/warsaw/2 (2).jpg"
+              alt="Coconut with Strawberries"
+              class="w-100 mb-2 mb-md-4 shadow-1-strong"
+            />
+            <img
+            src="../images/kyivgalaxy/wc 1.jpg"
+              data-mdb-img="../images/warsaw/final 1 ddd.jpg"
+              alt="Dark Roast Iced Coffee"
+              class="w-100 mb-2 mb-md-4 shadow-1-strong"
+            />
+            </div>
+          <div class="col-lg-6">
+
+            <img
+            src="../images/kyivgalaxy/62.jpg"
+              data-mdb-img="../images/warsaw/final 1 ddd.jpg"
+              alt="Dark Roast Iced Coffee"
+              class="w-100 mb-2 mb-md-4 shadow-1-strong"
+            />
+            <img
+            src="../images/kyivgalaxy/6.jpg"
+              data-mdb-img="../images/warsaw/final 1 ddd.jpg"
+              alt="Dark Roast Iced Coffee"
+              class="w-100 mb-2 mb-md-4 shadow-1-strong"
+            />
+            <img
+            src="../images/kyivgalaxy/72.jpg"
+              data-mdb-img="../images/warsaw/final 1 ddd.jpg"
+              alt="Dark Roast Iced Coffee"
+              class="w-100 mb-2 mb-md-4 shadow-1-strong"
+            />
+            <img
+            src="../images/kyivgalaxy/7.jpg"
+              data-mdb-img="../images/warsaw/2 (2).jpg"
+              alt="Coconut with Strawberries"
+              class="w-100 mb-2 mb-md-4 shadow-1-strong"
+            />
+            <img
+            src="../images/kyivgalaxy/night2.jpg"
+              data-mdb-img="../images/warsaw/2 (2).jpg"
+              alt="Coconut with Strawberries"
+              class="w-100 mb-2 mb-md-4 shadow-1-strong"
+            /><img
+            src="../images/kyivgalaxy/night.jpg"
+              data-mdb-img="../images/warsaw/2 (2).jpg"
+              alt="Coconut with Strawberries"
+              class="w-100 mb-2 mb-md-4 shadow-1-strong"
+            />
+            <img
+            src="../images/kyivgalaxy/wc.jpg"
+              data-mdb-img="../images/warsaw/final 1 ddd.jpg"
+              alt="Dark Roast Iced Coffee"
+              class="w-100 mb-2 mb-md-4 shadow-1-strong"
+            />
+          </div>
+        </div>
+      </div>   
     </section>
+
+
+
+
+
     <footer
-      class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+    class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+  >
+    <div class="mobilecopyright">
+      <span class="text-muted copyfontsize">© 2024 Yuliia Mykhailenko</span>
+    </div>
+
+    <ul
+      class="nav col-md-4 justify-content-center justify-content-md-end list-unstyled d-flex"
     >
-      <div class="mobilecopyright">
-        <span class="text-muted copyfontsize" style="color: black;">© 2024 Yuliia Mykhailenko</span>
-      </div>
-      <ul
-        class="nav col-md-4 justify-content-center justify-content-md-end list-unstyled d-flex"
-      >
+     
+      <li class="ms-3">
+        <a class="text-muted nav-link" href="https://www.instagram.com/interior_yulia/"
+          >
+          <img src="../images/icons/instagram.svg" loading="lazy" width="18px" height="19px" alt="Instagram Icon">
+        
+        </a>
+      </li>
       <li class="ms-3">
         <a
           class="text-muted nav-link"
           href="https://www.facebook.com/profile.php?id=100075905105494&sk=reels_tab"
           >
-          <img src="images/icons/facebook.svg" loading="lazy"  width="20px" height="19px" alt="Facebook Icon">
+          <img src="../images/icons/facebook.svg" loading="lazy" width="20px" height="19px" alt="Facebook Icon">
         </a>
       </li>
-       
-        <li class="ms-3">
-          <a class="text-muted nav-link" href="https://www.instagram.com/interior_yulia/"
-            >
-            <img src="images/icons/instagram.svg" loading="lazy" width="18px" height="19px" alt="Instagram Icon">
-          
-          </a>
-        </li>
-      </ul>
-    </footer>
+    </ul>
+  </footer>
   </body>
 </html>
