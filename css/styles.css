@@ -77,6 +77,10 @@ header .default-header {
   color: #000; /* Change the text color on hover if needed */
 }
 
+.nav-allblack {
+
+  color: black !important; 
+}
 .logo {
     height: 80px;
     width: 80px;
