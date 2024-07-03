@@ -11,6 +11,11 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/panzoom/panzoom.umd.js"></script>
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/panzoom/panzoom.css"
+/>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
@@ -43,7 +48,6 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
           <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
           
@@ -121,16 +125,18 @@
 
         </div>
       </div>
-      
+      <!-- <div class="f-panzoom" id="myPanzoom">
+  <img class="f-panzoom__content" src="https://lipsum.app/id/1/1200x1500" />
+</div> -->
       
         <div class="lightbox" data-mdb-lightbox-init>
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-lg-6 f-panzoom" id="myPanzoom">
             <img
             src="../images/kyiv118ap/4.jpg"
               data-mdb-img="../images/warsaw/final 1.jpg"
               alt="Coconut with Strawberries"
-              class="w-100 mb-2 mb-md-4 shadow-1-strong"
+              class="w-100 mb-2 mb-md-4 shadow-1-strong f-panzoom__content"
             />
             <img
             src="../images/kyiv118ap/5.jpg"

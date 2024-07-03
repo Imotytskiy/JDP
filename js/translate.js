@@ -1,3 +1,5 @@
+import { Panzoom } from "@fancyapps/ui/dist/panzoom/panzoom.esm.js";
+import "@fancyapps/ui/dist/panzoom/panzoom.css";
 import langdata from "./langdata.js";
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -55,3 +57,8 @@ document.getElementById('navbar-toggler').addEventListener('click', function() {
       }
     }, 0);
   });
+
+  const container = document.getElementById("myPanzoom");
+const options = { click: "toggleCover" };
+
+new Panzoom(container, options);
