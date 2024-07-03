@@ -3,6 +3,10 @@ body {
     margin: 0;
     padding: 4%;
 }
+@media (max-width: 768px) {
+  body {
+      padding: 0;
+  }}
 
 header.fixed {
     position: fixed !important;
@@ -15,7 +19,22 @@ header.fixed {
     left: 0;
 }
 
+@media (max-width: 768px) {
+  body {
+      padding: 0;
+  }
+  header.fixed {
+    position: fixed !important;
+    width: 100%;
+    z-index: 999;
+    background-color: white;
+    padding-left: 0;
+    padding-right: 0;
+    top: 0;
+    left: 0;
+}
 
+}
 header .default-header {
     width: 100%;
     display: table;
