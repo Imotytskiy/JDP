@@ -26,7 +26,6 @@
     />
   </head>
   <body>
-    <section class="gallery" style="width: 80%; margin-left: auto; margin-right: auto;"></section>
     <header class="fixed">
       <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="#">
@@ -94,15 +93,18 @@
         </div>
       </nav>
     </header>
-
-      <div style="width: 100%">
+    <div style="position: relative;
+     width: 100vw;
+     left: 50%;
+     right: 50%;
+     margin-left: -50vw;
+     margin-right: -50vw;">
         <img
           src="../images/kyiv81ap/IMG_7060.JPG"
-          class="gallerymd w-100 shadow-1-strong mb-4"
+          class="gallerymd w-100 shadow-1-strong mb-4 width-full"
           alt="House in Warsaw"
         />
       </div>
-
       <div class="project-description">
         <h2>Eu_150m²</h2>
         
@@ -120,7 +122,8 @@
 
         </div>
       </div>
-
+      <section class="gallery" style="width: 80%; margin-left: auto; margin-right: auto;">
+      
       <div class="lightbox" data-mdb-lightbox-init>
         <div class="row">
           <div class="col-lg-6">
