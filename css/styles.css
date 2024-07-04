@@ -1,12 +1,11 @@
 body {
     background-color: white !important;
-    margin: 0;
     padding: 4%;
 }
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   body {
       padding: 0;
-  }}
+  }} */
 
 header.fixed {
     position: fixed !important;
@@ -19,22 +18,8 @@ header.fixed {
     left: 0;
 }
 
-@media (max-width: 768px) {
-  body {
-      padding: 0;
-  }
-  header.fixed {
-    position: fixed !important;
-    width: 100%;
-    z-index: 999;
-    background-color: white;
-    padding-left: 0;
-    padding-right: 0;
-    top: 0;
-    left: 0;
-}
 
-}
+
 header .default-header {
     width: 100%;
     display: table;
@@ -232,8 +217,14 @@ header .default-header {
   input.check-toggle-round-flat:checked + label:after {
     margin-left: 44px;
   }
+  .footer-center {
+    justify-content: space-between;
+  }
   @media screen and (max-width: 768px) {
-    .mobilecopyright {
+    .footer-center {
+      justify-content: center;
+    }
+   ul .mobilecopyright {
         margin-left: auto ;
         margin-right:auto;
         text-align: center;
