@@ -7,7 +7,7 @@ body {
     
 }
 
-header.fixed {
+header {
     max-width: 1140px;
     min-width: 58px;
     min-height: 100px;
@@ -228,6 +228,9 @@ header.fixed {
   
   input.check-toggle-round-flat:checked + label:after {
     margin-left: 44px;
+  }
+  footer{
+    background-color: #424B5A;
   }
   .footer-center {
     justify-content: space-between;
