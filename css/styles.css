@@ -262,7 +262,7 @@ header {
 }
 
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .container {
       width: 1140px;
   }
@@ -273,12 +273,12 @@ header {
       width: 1140px;
   }
  
-}
+} */
 
-.container, .container-fluid {
+/* .container, .container-fluid {
   max-width: 1140px;
   margin: 0 auto;
-}
+} */
 .about{
   padding-top: 80px;
 }
