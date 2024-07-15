@@ -3,7 +3,7 @@ html {
 }
 body {
   background-color: white !important;
-  font-family: Arsenal !important;
+  font-family: "Arsenal", sans-serif !important;
   font-size: 14px;
   font-weight: 400;
   /* line-height: 17.56px; */
@@ -224,7 +224,7 @@ input.check-toggle-round-flat:checked + label:after {
   margin-left: 44px;
 }
 footer {
-  background-color: #424b5a;
+  background-color: ;
 }
 .footer-center {
   justify-content: space-between;
