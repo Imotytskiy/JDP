@@ -87,7 +87,34 @@ header {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%) translateY(-370px);
+    transform: translate(-50%, -50%) translateY(-360px);
+  }
+}
+
+@media (max-width: 350px) {
+  .responsive-image {
+    width: 120px; /* Adjust width to 50% of its original size */
+    height: 145px; /* Maintain aspect ratio */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) translateY(-450px);
+  }
+}
+
+.name_designer {
+  font-family: Arsenal;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 120px;
+}
+@media (max-width: 450px) {
+  .name_designer {
+    font-family: Arsenal;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 70px;
   }
 }
 
@@ -154,6 +181,34 @@ header {
   right: 50%;
   margin-left: -50vw;
   margin-right: -50vw;
+}
+
+.second_text {
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-family: Arsenal;
+  font-size: 28px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 35.11px;
+  text-align: center;
+  color: #f5f5f5;
+}
+
+@media (max-width: 450px) {
+  .second_text {
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: Arsenal;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 35.11px;
+    text-align: center;
+    color: #f5f5f5;
+  }
 }
 
 .copyfontsize {
@@ -332,16 +387,18 @@ input.check-toggle-round-flat:checked + label:after {
   margin: 0 auto;
   background: #f2f5f7;
   box-shadow: 0px 4px 4px 0px #00000040;
+  margin-top: 150px;
 }
 @media (max-width: 450px) {
   .block_cv {
     position: relative;
     bottom: -80px;
     z-index: 100;
-    width: 300px;
+    min-width: 260px;
     margin: 0 auto;
     background: #f2f5f7;
     box-shadow: 0px 4px 4px 0px #00000040;
+    margin-top: 100px;
   }
 }
 
