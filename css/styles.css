@@ -11,10 +11,9 @@ body {
 header {
   max-width: 1140px;
   min-width: 58px;
-  min-height: 100px;
   z-index: 999;
   background-color: white;
-  margin-top: 18px;
+  margin-top: 100px;
   margin-bottom: 8px;
 }
 
@@ -59,10 +58,11 @@ header {
 }
 @media screen and (max-width: 450px) {
   .logo {
-    height: 65px !important;
-    width: 65px !important;
+    height: 50px;
+    width: 51px;
   }
 }
+
 @media screen and (max-width: 450px) {
   .navbar-toggler {
     padding: 0.25rem 0.75rem;
@@ -71,6 +71,13 @@ header {
     background: #424b5a;
     border: 1px solid white;
     border-radius: 0.25rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .responsive-image {
+    width: 90px; /* Adjust width to 50% of its original size */
+    height: 115px; /* Maintain aspect ratio */
   }
 }
 
@@ -84,6 +91,17 @@ header {
   height: 240px; /* Встановіть висоту вашого елемента */
 }
 
+@media (max-width: 450px) {
+  .head-photo {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center; /* Горизонтальне вирівнювання */
+    align-items: center; /* Вертикальне вирівнювання */
+    height: 100px; /* Встановіть висоту вашого елемента */
+  }
+}
 .head-photo::after {
   content: "";
   position: absolute;
@@ -97,13 +115,26 @@ header {
 }
 .centered-text {
   position: relative;
-  z-index: 100000; /* Щоб текст був вище за псевдоелемент ::after */
+  z-index: 10000; /* Щоб текст був вище за псевдоелемент ::after */
   text-align: center; /* Вирівнювання тексту по центру */
   color: #ffffff; /* Колір тексту */
   font-family: Arsenal; /* Шрифт */
   font-size: 65px; /* Розмір шрифту */
   font-weight: 400; /* Вага шрифту */
   line-height: 81.51px; /* Висота рядка */
+}
+
+@media (max-width: 450px) {
+  .centered-text {
+    position: relative;
+    z-index: 10000; /* Щоб текст був вище за псевдоелемент ::after */
+    text-align: center; /* Вирівнювання тексту по центру */
+    color: #ffffff; /* Колір тексту */
+    font-family: Arsenal; /* Шрифт */
+    font-size: 24px; /* Розмір шрифту */
+    font-weight: 400; /* Вага шрифту */
+    line-height: 81.51px; /* Висота рядка */
+  }
 }
 .main-photo-project {
   position: relative;
@@ -223,9 +254,7 @@ input.check-toggle-round-flat + label:after {
 input.check-toggle-round-flat:checked + label:after {
   margin-left: 44px;
 }
-footer {
-  background-color: ;
-}
+
 .footer-center {
   justify-content: space-between;
 }
@@ -243,7 +272,6 @@ footer {
 .home-photography {
   position: relative;
   width: 100%;
-  height: 280px;
   overflow: hidden;
 }
 .loader,
@@ -258,26 +286,6 @@ footer {
   }
 }
 
-/* @media (min-width: 768px) {
-  .container {
-      width: 1140px;
-  }
-}
-@media (min-width: 992px) {
-  
-  .container {
-      width: 1140px;
-  }
- 
-} */
-
-/* .container, .container-fluid {
-  max-width: 1140px;
-  margin: 0 auto;
-} */
-.about {
-  padding-top: 80px;
-}
 .about-info p {
   font-family: Arsenal;
   font-size: 22px;
@@ -288,7 +296,25 @@ footer {
 
 .first-text {
   padding-top: 15px;
+  text-align: center;
+  font-family: Arsenal;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 27.59px;
+  text-align: center;
 }
+@media (max-width: 450px) {
+  .first-text {
+    padding-top: 15px;
+    text-align: center;
+    font-family: Arsenal;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 27.59px;
+    text-align: center;
+  }
+}
+
 .rounded {
   border-radius: 0 !important;
 }
