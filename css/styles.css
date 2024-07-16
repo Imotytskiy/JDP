@@ -10,11 +10,8 @@ body {
 
 header {
   max-width: 1140px;
-  min-width: 58px;
   z-index: 999;
   background-color: white;
-  margin-top: 100px;
-  margin-bottom: 8px;
 }
 
 .nav-link {
@@ -74,10 +71,23 @@ header {
   }
 }
 
+.responsive-image {
+  width: 223px; /* Adjust width to 50% of its original size */
+  height: 298px; /* Maintain aspect ratio */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) translateY(-300px);
+}
+
 @media (max-width: 450px) {
   .responsive-image {
-    width: 90px; /* Adjust width to 50% of its original size */
-    height: 115px; /* Maintain aspect ratio */
+    width: 120px; /* Adjust width to 50% of its original size */
+    height: 145px; /* Maintain aspect ratio */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) translateY(-370px);
   }
 }
 
@@ -87,7 +97,8 @@ header {
   background-position: center;
   display: flex;
   justify-content: center; /* Горизонтальне вирівнювання */
-  align-items: center; /* Вертикальне вирівнювання */
+  align-items: center;
+  margin-top: 80px; /* Вертикальне вирівнювання */
   height: 240px; /* Встановіть висоту вашого елемента */
 }
 
@@ -131,7 +142,7 @@ header {
     text-align: center; /* Вирівнювання тексту по центру */
     color: #ffffff; /* Колір тексту */
     font-family: Arsenal; /* Шрифт */
-    font-size: 24px; /* Розмір шрифту */
+    font-size: 28px; /* Розмір шрифту */
     font-weight: 400; /* Вага шрифту */
     line-height: 81.51px; /* Висота рядка */
   }
@@ -268,7 +279,7 @@ input.check-toggle-round-flat:checked + label:after {
     text-align: center;
   }
 }
-/* about */
+
 .home-photography {
   position: relative;
   width: 100%;
@@ -277,13 +288,6 @@ input.check-toggle-round-flat:checked + label:after {
 .loader,
 .owl-carousel-no-slider {
   height: 100%;
-}
-@media screen and (max-width: 768px) {
-  .contact-map #map,
-  .home-photography,
-  .home-photography #photography-slider .owl-item {
-    height: 240px;
-  }
 }
 
 .about-info p {
@@ -308,10 +312,36 @@ input.check-toggle-round-flat:checked + label:after {
     padding-top: 15px;
     text-align: center;
     font-family: Arsenal;
-    font-size: 22px;
-    font-weight: 400;
-    line-height: 27.59px;
+    font-size: 9px;
+    font-weight: 200;
     text-align: center;
+  }
+}
+.designer_foto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.block_cv {
+  position: relative;
+  bottom: -80px;
+  z-index: 100;
+  max-width: 710px;
+  margin: 0 auto;
+  background: #f2f5f7;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+@media (max-width: 450px) {
+  .block_cv {
+    position: relative;
+    bottom: -80px;
+    z-index: 100;
+    width: 300px;
+    margin: 0 auto;
+    background: #f2f5f7;
+    box-shadow: 0px 4px 4px 0px #00000040;
   }
 }
 
