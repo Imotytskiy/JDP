@@ -6,6 +6,7 @@ body {
   font-family: "Arsenal", sans-serif !important;
   font-size: 14px;
   font-weight: 400;
+  min-width: 320px;
 }
 
 header {
