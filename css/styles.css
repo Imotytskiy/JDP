@@ -51,8 +51,8 @@ header {
   color: #424b5a;
 }
 .logo {
-  height: 88px;
-  width: 89px;
+  height: 78px;
+  width: 79px;
 }
 @media screen and (max-width: 450px) {
   .logo {
@@ -146,7 +146,7 @@ header {
   display: flex;
   justify-content: center; /* Горизонтальне вирівнювання */
   align-items: center;
-  margin-top: 80px; /* Вертикальне вирівнювання */
+  margin-top: 110px; /* Вертикальне вирівнювання */
   height: 240px; /* Встановіть висоту вашого елемента */
 }
 
