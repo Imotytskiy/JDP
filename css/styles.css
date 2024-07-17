@@ -205,8 +205,8 @@ header {
 
 .second_text {
   text-align: center;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 13%;
+  margin-right: 13%;
   font-family: Arsenal;
   font-size: 28px;
   font-style: italic;
@@ -482,6 +482,8 @@ input.check-toggle-round-flat:checked + label:after {
   font-weight: 400;
   line-height: 27.59px;
   text-align: center;
+  font-weight: 400;
+  color: #424b5a;
 }
 @media (max-width: 450px) {
   .first-text {
@@ -491,6 +493,7 @@ input.check-toggle-round-flat:checked + label:after {
     font-size: 9px;
     font-weight: 200;
     text-align: center;
+    color: #424b5a;
   }
 }
 .designer_foto {
