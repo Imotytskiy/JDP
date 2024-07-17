@@ -262,6 +262,25 @@ header {
     margin-top: 25px;
   }
 }
+
+.brand_name {
+  font-family: Arsenal;
+  font-size: 20px;
+  font-weight: 200;
+  text-align: center;
+  color: #dadada;
+}
+
+@media (max-width: 450px) {
+  .brand_name {
+    font-family: Arsenal;
+    font-size: 9px;
+    font-weight: 200;
+    text-align: center;
+    color: #dadada;
+  }
+}
+
 .copyfontsize {
   font-size: small;
 }
