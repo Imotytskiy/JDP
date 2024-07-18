@@ -1,3 +1,7 @@
+:root {
+  --font-family: "Ubuntu", sans-serif;
+  --second-family: "Arsenal", sans-serif;
+}
 html {
   scroll-behavior: smooth;
 }
