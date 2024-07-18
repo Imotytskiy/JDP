@@ -37,3 +37,16 @@
 .card_horizont {
   max-height: 373px;
 }
+
+li {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 18px;
+  color: #424b5a;
+}
+
+.gallery-main {
+  margin-top: 10%;
+  padding-left: 6%;
+  padding-right: 6%;
+}

@@ -27,73 +27,75 @@
   </head>
   <body>
     <section class="gallery" style="width: 80%; margin-left: auto; margin-right: auto;"></section>
-    <header class="fixed">
-      <nav class="navbar navbar-expand-lg navbar-light">
+    <header class="container" id="section1">
+      <nav class="navbar fixed-top navbar-expand-lg " style="background-color: white; padding-left: 6%; padding-right: 6%;">
         <a class="navbar-brand" href="../index.html">
           <img class="logo" src="../images/Logo-design-studio-YM-1000-1000.png" />
         </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarTogglerDemo03"
-          aria-controls="navbarTogglerDemo03"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+        <a
+        id="navbar-toggler"
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarTogglerDemo03"
+        aria-controls="navbarTogglerDemo03"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+        style="border: none !important;"
+      >
+        <i class="bi bi-list" style="font-size: 2rem; color: rgb(0, 0, 0);" ></i>
+      </a>
+
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-          
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0 align-items: center;">
             <li class="nav-item">
-              <a id="portfolio" class="nav-link nav-allblack" href="../index.html"></a>
+              <a id="portfolio" class="nav-link nav-allblack" href="../index.html">PORTFOLIO</a>
             </li>
             <li class="nav-item">
-              <a id="about" class="nav-link nav-allblack"  href="html/about.html"></a>
+              <a id="about" class="nav-link nav-allblack"  href="/html/about.html">O MNIE</a>
             </li>
             <li class="nav-item">
-              <a id="price" class="nav-link nav-allblack"  href="html/price.html"></a>
+              <a id="price" class="nav-link nav-allblack"  href="/html/price.html">OFERTA</a>
             </li>
             <li class="nav-item">
-              <a id="contact" class="nav-link nav-allblack"  href="html/contacts.html"
-                ></a
+              <a id="contact" class="nav-link nav-allblack"  href="/html/contacts.html">KONTAKT</a
               >
             </li>
-            <li class="ms-3">
+
+
+            <li class="nav-item" style="line-height: 20px;">
               <a
-                class="nav-link text-muted"
+                class="nav-link nav-allblack"  href="/contacts.html"
                 href="https://www.facebook.com/share/r/B4MegvRd9iLP6rMq/?mibextid=WC7FNe">
-                <img src="../images/icons/facebook.svg" loading="lazy" width="20px" height="19px" alt="Facebook Icon">
-          
+                <img src="../images/icons/SM-Facebook.svg" loading="lazy" width="24px" height="24px" alt="Facebook Icon">
               </a>
             </li>
-            <li class="ms-3">
-              <a class="text-muted nav-link" href="https://www.instagram.com/interior_yulia/"
-          >
-          <img src="../images/icons/instagram.svg" loading="lazy" width="18px" height="19px" alt="Instagram Icon">
-        
-        </a>
-            </li>
-            <li class="nav-item">
-              <div class="lang-switch">
-                <select
-                  name="lang_choice_1"
-                  id="lang_choice_1"
-                  class="pll-switcher-select"
+
+
+            <li class="nav-item" >
+              <a class="nav-link nav-allblack"  href="html/contacts.html" 
+                href="https://www.facebook.com/profile.php?id=100013528336978"
                 >
-                  <option value="pl" lang="pl-PL" selected="selected">
-                    pl
-                  </option>
-                  <option value="en" lang="en-US">en</option>
-                  <option value="uk" lang="uk">ua</option>
-                  <!-- <option value="ru" lang="ru-RU">ru</option> -->
-                </select>
-              </div>
+                <img src="../images/icons/SM-instagram.svg" loading="lazy" width="24px" height="24px" alt="Instagram Icon">
+                
+              </a>
             </li>
+
+
+            <!-- <li class="lang-switch ">
+              <a class="" href="">
+              <select name="lang_choice_1" id="lang_choice_1" class="pll-switcher-select" style="display: block;
+    padding: .3rem .6rem;">
+                <option value="pl" lang="pl-PL" selected="selected">pl</option>
+                <option value="en" lang="en-US">en</option>
+                <option value="uk" lang="uk">ua</option>
+              </select>
+            </a>
+          </li> -->
           </ul>
         </div>
       </nav>
+
     </header>
      <div class="main-photo-project">
         <img class="width-full"
