@@ -1,0 +1,38 @@
+.baner {
+  background-image: url("../images/baner.png");
+}
+
+@media screen and (max-width: 450px) {
+  .baner {
+    background-image: url("../images/baner_small.png");
+  }
+}
+
+.centered {
+  width: calc(100% - 30px);
+  margin: 0 auto;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 165px;
+}
+
+@media screen and (max-width: 992px) {
+  .cards {
+    gap: 30px;
+  }
+}
+
+.cards_horizont {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 60px;
+}
+
+.card_horizont {
+  max-height: 373px;
+}
