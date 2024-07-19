@@ -550,6 +550,7 @@
               id="phone"
               name="user_phone"
               placeholder="Numer telefonu"
+              pattern="^\+?[0-9\s\-]+$"
             />
           </div>
           <div class="form-group">
@@ -606,12 +607,13 @@
           .getElementById("contactForm")
           .addEventListener("submit", function (event) {
             event.preventDefault();
-            console.log(document.getElementById("contactForm"));
+
             emailjs.sendForm("service_08fb4gr", "template_us7p0jp", this).then(
               function (response) {
                 document.getElementById("responseMessage").innerText =
                   "SUCCESS! Your message has been sent.";
                 console.log("SUCCESS!", response.status, response.text);
+                disableForm();
               },
               function (error) {
                 document.getElementById("responseMessage").innerText =
@@ -620,6 +622,15 @@
               }
             );
           });
+
+        function disableForm() {
+          const form = document.getElementById("contactForm");
+          const elements = form.elements;
+
+          for (let i = 0; i < elements.length; i++) {
+            elements[i].disabled = true;
+          }
+        }
       </script>
       <hr class="footer_hr" />
       <footer
