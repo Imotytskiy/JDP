@@ -1,10 +1,10 @@
 .baner {
-  background-image: url("../images/baner.png");
+  background-image: url("../images/kontakt_big.png");
 }
 
 @media screen and (max-width: 450px) {
   .baner {
-    background-image: url("../images/baner_small.png");
+    background-image: url("../images/kontakt_medium.png");
   }
 }
 
@@ -217,4 +217,9 @@ li {
 
 .card:hover {
   transform: scale(1.05);
+}
+
+.card-horizon-adaptive {
+  max-width: 100%;
+  height: auto;
 }
