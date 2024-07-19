@@ -234,3 +234,49 @@ li {
   max-width: 100%;
   height: auto;
 }
+
+.form-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 4%;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+button {
+  background: none;
+  border: none;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  padding: 0;
+  outline: none;
+}
+.font-form {
+  color: #dadada;
+  font-size: medium;
+}
+
+.form-group button {
+  /* Example background color */
+  border: 1px solid transparent; /* Initially, the border is transparent */
+  padding: 10px 20px; /* Example padding */
+  cursor: pointer; /* Changes cursor to pointer when hovering over the button */
+}
+
+.form-group button:hover {
+  border: 1px solid #010101; /* Border color when hovering */
+}

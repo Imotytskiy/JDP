@@ -529,6 +529,98 @@
       <a href="#section1">
         <img class="arrow_up" src="../images/icons/Arrow_Up.svg" alt="up" />
       </a>
+
+      <div class="form-container">
+        <!-- <h2>Contact Us</h2> -->
+        <form id="contactForm">
+          <div class="form-group">
+            <label for="name"></label>
+            <input
+              type="text"
+              id="name"
+              name="user_name"
+              placeholder="Imię i nazwisko"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="phone"></label>
+            <input
+              type="phone"
+              id="phone"
+              name="user_phone"
+              placeholder="Numer telefonu"
+            />
+          </div>
+          <div class="form-group">
+            <label for="email"></label>
+            <input
+              type="email"
+              id="email"
+              name="user_email"
+              placeholder="E-mail "
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="message"></label>
+            <textarea
+              id="message"
+              name="message"
+              rows="4"
+              placeholder="Wiadomość"
+              required
+            ></textarea>
+          </div>
+          <div
+            class="form-group"
+            style="text-align: center; font-size: 2rem; font-weight: 800"
+          >
+            <button type="submit" class="font-form">Wyślij</button>
+          </div>
+          <div class="wpb_wrapper">
+            <p class="font-form" style="font-size: 0.7rem">
+              Administratorem podanych danych jest YULIIA MYKHAILENKO. Dane są
+              przetwarzane m.in. w celu odpowiedzi na pozostawione zapytanie.
+              Więcej informacji, w tym przysługujące prawa, znajdą Państwo w<a
+                style="text-decoration: underline"
+                href="/polityka-prywatnosci/prywatnosci.pdf"
+                target="_blank"
+                rel="noopener"
+              >
+                polityce prywatności</a
+              >.
+            </p>
+          </div>
+        </form>
+        <div id="responseMessage"></div>
+      </div>
+
+      <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+      <script>
+        (function () {
+          emailjs.init("X6l0xy74bqK-UCqgx"); // Your public key (User ID)
+        })();
+
+        document
+          .getElementById("contactForm")
+          .addEventListener("submit", function (event) {
+            event.preventDefault();
+            console.log(document.getElementById("contactForm"));
+            emailjs.sendForm("service_08fb4gr", "template_us7p0jp", this).then(
+              function (response) {
+                document.getElementById("responseMessage").innerText =
+                  "SUCCESS! Your message has been sent.";
+                console.log("SUCCESS!", response.status, response.text);
+              },
+              function (error) {
+                document.getElementById("responseMessage").innerText =
+                  "FAILED... Your message could not be sent.";
+                console.error("FAILED...", error);
+              }
+            );
+          });
+      </script>
       <hr class="footer_hr" />
       <footer
         class="d-flex flex-wrap justify-content-between align-items-center container;"
