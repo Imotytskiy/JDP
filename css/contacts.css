@@ -61,6 +61,7 @@ li {
   margin: 5%;
   flex-direction: row;
 } */
+
 .card-body {
   padding: 0.5em 1em;
 }
@@ -73,7 +74,7 @@ li {
 
 .centered {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -213,6 +214,16 @@ li {
     text-transform: lowercase;
     text-align: right;
   }
+}
+.card {
+  border: none !important;
+  padding: 10px;
+  margin: 10px;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
 }
 
 .card:hover {
