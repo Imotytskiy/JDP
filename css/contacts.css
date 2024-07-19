@@ -280,3 +280,12 @@ button {
 .form-group button:hover {
   border: 1px solid #010101; /* Border color when hovering */
 }
+
+input:disabled,
+textarea:disabled,
+button:disabled {
+  background-color: #f0f0f0; /* Light grey background */
+  color: #a0a0a0; /* Grey text */
+  border: 1px solid #d0d0d0; /* Light grey border */
+  cursor: not-allowed; /* Change cursor to indicate disabled state */
+}
