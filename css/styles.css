@@ -6,7 +6,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background-color: white !important;
+  background-color: white;
   font-family: "Arsenal", sans-serif !important;
   font-size: 14px;
   font-weight: 400;
