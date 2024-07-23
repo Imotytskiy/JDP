@@ -3,3 +3,19 @@
   padding-left: 6%;
   padding-right: 6%;
 }
+
+@media screen and (max-width: 992px) {
+  .gallery-main {
+    margin-top: 12%;
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .gallery-main {
+    margin-top: 24%;
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+}

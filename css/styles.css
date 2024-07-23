@@ -611,9 +611,3 @@ input.check-toggle-round-flat:checked + label:after {
   height: 55vh;
   object-fit: cover;
 }
-
-.gallery-main {
-  margin-top: 10%;
-  padding-left: 6%;
-  padding-right: 6%;
-}
