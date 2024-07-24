@@ -76,73 +76,6 @@ header {
   }
 }
 
-.responsive-image {
-  width: 223px; /* Adjust width to 50% of its original size */
-  height: 298px; /* Maintain aspect ratio */
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) translateY(-310px);
-}
-@media (max-width: 767px) {
-  .responsive-image {
-    width: 223px; /* Adjust width to 50% of its original size */
-    height: 298px; /* Maintain aspect ratio */
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) translateY(-360px);
-  }
-}
-@media (max-width: 508px) {
-  .responsive-image {
-    width: 223px; /* Adjust width to 50% of its original size */
-    height: 298px; /* Maintain aspect ratio */
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) translateY(-390px);
-  }
-}
-
-@media (max-width: 459px) {
-  .responsive-image {
-    width: 120px; /* Adjust width to 50% of its original size */
-    height: 145px; /* Maintain aspect ratio */
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) translateY(-340px);
-  }
-}
-
-@media (max-width: 392px) {
-  .responsive-image {
-    width: 130px; /* Adjust width to 50% of its original size */
-    height: 155px; /* Maintain aspect ratio */
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) translateY(-400px);
-  }
-}
-
-.name_designer {
-  font-family: Arsenal;
-  font-size: 30px;
-  font-weight: 400;
-  text-align: center;
-  margin-top: 120px;
-}
-@media (max-width: 450px) {
-  .name_designer {
-    font-family: Arsenal;
-    font-size: 18px;
-    text-align: center;
-    margin-top: 70px;
-  }
-}
-
 .head-photo {
   position: relative;
   background-size: cover;
@@ -206,34 +139,6 @@ header {
   right: 50%;
   margin-left: -50vw;
   margin-right: -50vw;
-}
-
-.second_text {
-  text-align: center;
-  margin-left: 13%;
-  margin-right: 13%;
-  font-family: Arsenal;
-  font-size: 28px;
-  font-style: italic;
-  font-weight: 700;
-  line-height: 35.11px;
-  text-align: center;
-  color: #f5f5f5;
-}
-
-@media (max-width: 450px) {
-  .second_text {
-    text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
-    font-family: Arsenal;
-    font-size: 18px;
-    font-style: italic;
-    font-weight: 400;
-    line-height: 35.11px;
-    text-align: center;
-    color: #f5f5f5;
-  }
 }
 
 .opinie {

@@ -56,3 +56,212 @@
     margin-bottom: 30px;
   }
 }
+/* section about me */
+
+.responsive-image {
+  width: 223px; /* Adjust width to 50% of its original size */
+  height: 298px; /* Maintain aspect ratio */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) translateY(-310px);
+}
+@media (max-width: 768px) {
+  .responsive-image {
+    width: 223px; /* Adjust width to 50% of its original size */
+    height: 298px; /* Maintain aspect ratio */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) translateY(-330px);
+  }
+}
+@media (max-width: 508px) {
+  .responsive-image {
+    width: 223px; /* Adjust width to 50% of its original size */
+    height: 298px; /* Maintain aspect ratio */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) translateY(-390px);
+  }
+}
+
+@media (max-width: 459px) {
+  .responsive-image {
+    width: 120px; /* Adjust width to 50% of its original size */
+    height: 145px; /* Maintain aspect ratio */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) translateY(-230px);
+  }
+}
+
+@media (max-width: 392px) {
+  .responsive-image {
+    width: 130px; /* Adjust width to 50% of its original size */
+    height: 155px; /* Maintain aspect ratio */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) translateY(-220px);
+  }
+}
+
+.name_designer {
+  margin-top: 80px;
+  font-family: Arsenal;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 37.62px;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .name_designer {
+    margin-top: 60px;
+    font-family: Arsenal;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30.1px;
+    text-align: center;
+  }
+}
+@media (max-width: 450px) {
+  .name_designer {
+    margin-top: 40px;
+    font-family: Arsenal;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.56px;
+    text-align: center;
+  }
+}
+
+.position_designer {
+  font-size: 80px;
+  font-weight: bolder;
+  font-family: Arsenal;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .position_designer {
+    font-family: Arsenal;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.56px;
+    text-align: center;
+  }
+}
+@media (max-width: 450px) {
+  .position_designer {
+    font-family: Arsenal;
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 10.03px;
+    text-align: center;
+  }
+}
+.study_designer {
+  font-family: Arsenal;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25.08px;
+  text-align: center;
+  color: #424b5a;
+}
+@media (max-width: 768px) {
+  .study_designer {
+    font-family: Arsenal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.06px;
+    text-align: center;
+    color: #424b5a;
+  }
+}
+@media (max-width: 450px) {
+  .study_designer {
+    font-family: Arsenal;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12.54px;
+    text-align: center;
+    color: #424b5a;
+  }
+}
+.study_designer {
+  font-family: Arsenal;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25.08px;
+  text-align: center;
+  color: #424b5a;
+}
+@media (max-width: 768px) {
+  .study_designer {
+    font-family: Arsenal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.06px;
+    text-align: center;
+    color: #424b5a;
+  }
+}
+@media (max-width: 450px) {
+  .study_designer {
+    font-family: Arsenal;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12.54px;
+    text-align: center;
+    color: #424b5a;
+  }
+}
+
+.second_text {
+  text-align: center;
+  margin-left: 13%;
+  margin-right: 13%;
+  font-family: Arsenal;
+  font-size: 28px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 35.11px;
+  text-align: center;
+  color: #f5f5f5;
+}
+@media (max-width: 768px) {
+  .second_text {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: Arsenal;
+    font-family: Arsenal;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 22.57px;
+    text-align: center;
+
+    color: #f5f5f5;
+  }
+}
+
+@media (max-width: 450px) {
+  .second_text {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: Arsenal;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 15.05px;
+    text-align: center;
+
+    color: #f5f5f5;
+  }
+}
