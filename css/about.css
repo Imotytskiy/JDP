@@ -1,3 +1,81 @@
+.head-photo {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center; /* Горизонтальне вирівнювання */
+  align-items: center;
+  margin-top: 110px; /* Вертикальне вирівнювання */
+  height: 240px; /* Встановіть висоту вашого елемента */
+}
+@media (max-width: 768px) {
+  .head-photo {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center; /* Горизонтальне вирівнювання */
+    align-items: center; /* Вертикальне вирівнювання */
+    height: 240px; /* Встановіть висоту вашого елемента */
+  }
+}
+
+@media (max-width: 450px) {
+  .head-photo {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center; /* Горизонтальне вирівнювання */
+    align-items: center; /* Вертикальне вирівнювання */
+    height: 100px; /* Встановіть висоту вашого елемента */
+  }
+}
+.head-photo::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); /* Чорний колір з 40% прозорістю */
+  z-index: 1; /* Встановлює порядок розташування псевдоелемента */
+  pointer-events: none; /* Щоб маска не впливала на взаємодію з контентом */
+}
+.head-text {
+  font-family: Arsenal;
+  font-size: 65px;
+  font-weight: 400;
+  line-height: 81.51px;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 768px) {
+  .head-text {
+    font-family: Arsenal;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 62.7px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  }
+}
+
+@media (max-width: 450px) {
+  .head-text {
+    font-family: Arsenal;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25.08px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  }
+}
+
 .first-text {
   padding-top: 15px;
   text-align: center;
