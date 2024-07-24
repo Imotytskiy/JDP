@@ -251,6 +251,40 @@
   }
 }
 
+.opinie {
+  color: #ffffff;
+  font-family: Arsenal;
+  font-size: 65px;
+  font-weight: 400;
+  line-height: 81.51px;
+  text-align: center;
+  padding-top: 20px;
+  margin-top: 160px;
+}
+@media (max-width: 768px) {
+  .opinie {
+    color: #ffffff;
+    font-family: Arsenal;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50.16px;
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 450px) {
+  .opinie {
+    color: #ffffff;
+    font-family: Arsenal;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25.08px;
+    text-align: center;
+    margin-top: 18pxpx;
+  }
+}
+
 .opinie-text {
   font-style: italic;
   font-weight: 400;

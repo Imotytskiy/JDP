@@ -141,27 +141,6 @@ header {
   margin-right: -50vw;
 }
 
-.opinie {
-  color: #ffffff;
-  font-family: Arsenal;
-  font-size: 65px;
-  font-weight: 400;
-  text-align: center;
-  padding-top: 20px;
-  margin-top: 160px;
-}
-
-@media (max-width: 450px) {
-  .opinie {
-    color: #ffffff;
-    font-family: Arsenal;
-    font-size: 30px;
-    font-weight: 400;
-    text-align: center;
-    margin-top: 22px;
-  }
-}
-
 @media (max-width: 450px) {
   .center-image {
     display: block;
