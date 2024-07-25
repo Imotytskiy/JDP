@@ -41,6 +41,19 @@ header {
   transition: transform 0.3s ease;
 }
 
+.nav-link.no-underline::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 0; /* Set height to 0 to remove the underline */
+  bottom: 0;
+  left: 0;
+  background-color: transparent; /* Make background color transparent */
+  transform-origin: bottom right;
+  transition: none; /* Disable transition */
+}
+
 .nav-link:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;

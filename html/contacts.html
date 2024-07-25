@@ -104,7 +104,7 @@
 
             <li class="nav-item" style="line-height: 20px">
               <a
-                class="nav-link nav-allblack"
+                class="nav-link no-underline nav-allblack"
                 href="https://www.facebook.com/share/r/B4MegvRd9iLP6rMq/?mibextid=WC7FNe"
               >
                 <img
@@ -119,7 +119,7 @@
 
             <li class="nav-item">
               <a
-                class="nav-link nav-allblack"
+                class="nav-link no-underline nav-allblack"
                 href="https://www.facebook.com/profile.php?id=100013528336978"
               >
                 <img
@@ -244,7 +244,7 @@ Realizujemy projekty wnętrz we Wrocławiu, Warszawie i okolicach oraz w całym 
             class="form-group"
             style="text-align: center; font-size: 2rem; font-weight: 800"
           >
-            <button type="submit" class="font-form">Wyślij</button>
+            <button id="responseMessage" type="submit" class="font-form">Wyślij</button>
           </div>
           <div class="wpb_wrapper">
             <p class="font-form" style="font-size: 0.7rem">
@@ -261,7 +261,7 @@ Realizujemy projekty wnętrz we Wrocławiu, Warszawie i okolicach oraz w całym 
             </p>
           </div>
         </form>
-        <div id="responseMessage"></div>
+
       </div>
 
       <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
@@ -278,13 +278,13 @@ Realizujemy projekty wnętrz we Wrocławiu, Warszawie i okolicach oraz w całym 
             emailjs.sendForm("service_08fb4gr", "template_us7p0jp", this).then(
               function (response) {
                 document.getElementById("responseMessage").innerText =
-                  "SUCCESS! Your message has been sent.";
+                  "SUCCESS!";
                 console.log("SUCCESS!", response.status, response.text);
                 disableForm();
               },
               function (error) {
                 document.getElementById("responseMessage").innerText =
-                  "FAILED... Your message could not be sent.";
+                  "FAILED...";
                 console.error("FAILED...", error);
               }
             );
