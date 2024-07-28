@@ -8,6 +8,17 @@
   margin-top: 110px; /* Вертикальне вирівнювання */
   height: 240px; /* Встановіть висоту вашого елемента */
 }
+@media (max-width: 1024px) {
+  .head-photo {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center; /* Горизонтальне вирівнювання */
+    align-items: center; /* Вертикальне вирівнювання */
+    height: 200px; /* Встановіть висоту вашого елемента */
+  }
+}
 @media (max-width: 768px) {
   .head-photo {
     position: relative;
