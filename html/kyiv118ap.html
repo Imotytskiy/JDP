@@ -7,188 +7,298 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <title>Interior Design</title>
-    <script type="module" src="../js/translate.js" defer></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
-    />
-    <link rel="stylesheet" href="../css/styles.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    />
+     <link rel="stylesheet" href="../css/lightbox.css">
+      <link rel="stylesheet" href="../css/styles.css">
+      <link rel="stylesheet" href="../css/marbella.css">
+      
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <link rel="stylesheet" href="../css/gallery.css">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   </head>
   <body>
-    <section class="gallery" style="width: 80%; margin-left: auto; margin-right: auto;"></section>
-    <header class="container" id="section1">
-      <nav class="navbar fixed-top navbar-expand-lg " style="background-color: white; padding-left: 6%; padding-right: 6%;">
-        <a class="navbar-brand" href="../index.html">
-          <img class="logo" src="../images/Logo-design-studio-YM-1000-1000.png" />
-        </a>
-        <a
-        id="navbar-toggler"
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarTogglerDemo03"
-        aria-controls="navbarTogglerDemo03"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-        style="border: none !important;"
-      >
-        <i class="bi bi-list" style="font-size: 2rem; color: rgb(0, 0, 0);" ></i>
-      </a>
-
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-          <ul class="navbar-nav ml-auto mt-2 mt-lg-0 align-items: center;">
-            <li class="nav-item">
-              <a id="portfolio" class="nav-link nav-allblack" href="../index.html">PORTFOLIO</a>
-            </li>
-            <li class="nav-item">
-              <a id="about" class="nav-link nav-allblack"  href="/html/about.html">O MNIE</a>
-            </li>
-            <li class="nav-item">
-              <a id="price" class="nav-link nav-allblack"  href="/html/price.html">OFERTA</a>
-            </li>
-            <li class="nav-item">
-              <a id="contact" class="nav-link nav-allblack"  href="/html/contacts.html">KONTAKT</a
-              >
-            </li>
-
-
-            <li class="nav-item" style="line-height: 20px;">
-              <a
-                class="nav-link nav-allblack"  href="/contacts.html"
-                href="https://www.facebook.com/share/r/B4MegvRd9iLP6rMq/?mibextid=WC7FNe">
-                <img src="../images/icons/SM-Facebook.svg" loading="lazy" width="24px" height="24px" alt="Facebook Icon">
-              </a>
-            </li>
-
-
-            <li class="nav-item" >
-              <a class="nav-link nav-allblack"  href="html/contacts.html" 
-                href="https://www.facebook.com/profile.php?id=100013528336978"
+    <header class="fixed container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">
+            <img class="logo" src="../images/Logo-design-studio-YM-1000-1000.png" />
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a id="portfolio" class="nav-link nav-allblack" href="../index.html">PORTFOLIO</a>
+              </li>
+              <li class="nav-item">
+                <a id="about" class="nav-link nav-allblack"  href="about.html">O MNIE</a>
+              </li>
+              <li class="nav-item">
+                <a id="price" class="nav-link nav-allblack"  href="price.html">OFERTA</a>
+              </li>
+              <li class="nav-item">
+                <a id="contact" class="nav-link nav-allblack"  href="contacts.html">KONTAKT</a
                 >
-                <img src="../images/icons/SM-instagram.svg" loading="lazy" width="24px" height="24px" alt="Instagram Icon">
+              </li>
+              <li class="ms-3">
                 
-              </a>
-            </li>
-
-
-            <!-- <li class="lang-switch ">
-              <a class="" href="">
-              <select name="lang_choice_1" id="lang_choice_1" class="pll-switcher-select" style="display: block;
-    padding: .3rem .6rem;">
-                <option value="pl" lang="pl-PL" selected="selected">pl</option>
-                <option value="en" lang="en-US">en</option>
-                <option value="uk" lang="uk">ua</option>
-              </select>
-            </a>
-          </li> -->
-          </ul>
+                <a
+                  class="nav-link text-muted"
+                  href="https://www.facebook.com/share/r/B4MegvRd9iLP6rMq/?mibextid=WC7FNe">
+                  <img src="../images/icons/SM-Facebook.svg" loading="lazy" width="20px" height="19px" alt="Facebook Icon">
+            
+                </a>
+              </li>
+              <li class="ms-3">
+                <a class="text-muted nav-link" href="https://www.instagram.com/interior_yulia/"
+            >
+            <img src="../images/icons/SM-instagram.svg" loading="lazy" width="18px" height="19px" alt="Instagram Icon">
+          
+          </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
-
     </header>
-     <div class="main-photo-project">
-        <img class="width-full"
-          src="../images/kyiv118ap/5.jpg"
-          class="gallerymd w-100 shadow-1-strong mb-4"
-          alt="House in Warsaw"
-        />
-      </div>
-      <section class="gallery project-gallery" >
-      <div class="project-description">
-        <h2>Eu_150m²</h2>
-        
-        <p><strong>metraż</strong>: 150 m²</p>
-        <p>
-          <strong>architektura</strong>: mieszkanie 5 pokojowe z dwoma
-          łazienkami
-        </p>
-        <p>
-          <strong>materiały:</strong> przyciemniany i bielony dąb w połączeniu z
-          kamieniem Taj Mahal, oliwkowa zieleń, nie regularna faktura ścian,
-          małe płytki
-        </p>
-        <p><strong>projektowanie:</strong> 2021 r</p>
-
-        </div>
-      </div>
-     
-        <div class="lightbox" data-mdb-lightbox-init>
-        <div class="row">
-          <div class="col-lg-6">
-            <img
-            src="../images/kyiv118ap/4.jpg"
-              data-mdb-img="../images/warsaw/final 1.jpg"
-              alt="Coconut with Strawberries"
-              class="w-100 mb-2 mb-md-4 shadow-1-strong "
-            />
-            <img
-            src="../images/kyiv118ap/5.jpg"
-              data-mdb-img="../images/warsaw/2 (2).jpg"
-              alt="Coconut with Strawberries"
-              class="w-100 mb-2 mb-md-4 shadow-1-strong"
-            />
-          </div>
-          <div class="col-lg-6">
-
-            <img
-            src="../images/kyiv118ap/7.jpg"
-              data-mdb-img="../images/warsaw/final 1 ddd.jpg"
-              alt="Dark Roast Iced Coffee"
-              class="w-100 mb-2 mb-md-4 shadow-1-strong"
-            />
-            <img
-            src="../images/kyiv118ap/1.jpg"
-              data-mdb-img="../images/warsaw/final 1 ddd.jpg"
-              alt="Dark Roast Iced Coffee"
-              class="w-100 mb-2 mb-md-4 shadow-1-strong"
-            />
-          </div>
-        </div>
-      </div>   
-    </section>
-
-
-
-
-
-    <footer
-    class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
-  >
-    <div class="mobilecopyright">
-      <span class="text-muted copyfontsize">© 2024 Yuliia Mykhailenko</span>
+    <div class="main-photo-project">
+      <img
+        src="../images/warsaw/3.jpg"
+        class="gallerymd w-100 shadow-1-strong mb-4 width-full"
+        alt="House in Warsaw"
+      />
     </div>
-
-    <ul
-      class="nav col-md-4 justify-content-center justify-content-md-end list-unstyled d-flex"
-    >
-     
-      <li class="ms-3">
-        <a class="text-muted nav-link" href="https://www.instagram.com/interior_yulia/"
-          >
-          <img src="../images/icons/instagram.svg" loading="lazy" width="18px" height="19px" alt="Instagram Icon">
+      <section class="gallery project-gallery container" >
+      <div class="project-description nav-allblack" style="padding: 0 12px;" >
+        <!-- <h2>ART BAKERY & WINE</h2> -->
         
-        </a>
-      </li>
-      <li class="ms-3">
-        <a
-          class="text-muted nav-link"
-          href="https://www.facebook.com/profile.php?id=100075905105494&sk=reels_tab"
-          >
-          <img src="../images/icons/facebook.svg" loading="lazy" width="20px" height="19px" alt="Facebook Icon">
-        </a>
-      </li>
-    </ul>
-  </footer>
+        <p class="description_marbella">Bardzo przytulna restauracja @artbakery_wine z piekarnią, szalonymi autorskimi deserami szefa kuchni, winem i przyjemną atmosferą w Marbelli,  Hiszpanii.
+        </p>
+        <p class="description_marbella">
+          Projekt został zrealizowany zdalnie w najkrótszym możliwym czasie, z uwzględnieniem wszystkich życzeń klientów i specyfiki lokalnego rynku materiałów.
+        </p>
+        <p class="description_marbella">Projekt 2022</p>
+
+        </div>
+      </div>
+
+      <section class="photo-gallery">
+    
+        <div class="container">
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-4 gallery-grid">
+            <div class="col">
+              <a class="gallery-item" href="../images/kyiv118ap/1.jpg">
+                <img src="../images/kyiv118ap/1.jpg" class="mb-2 mb-md-4 img-fluid" alt="">
+              </a>
+              <a class="gallery-item" href="../images/kyiv118ap/3.jpg">
+                <img src="../images/kyiv118ap/3.jpg" class="mb-2 mb-md-4 img-fluid" alt="">
+              </a>
+              <a class="gallery-item" href="../images/kyiv118ap/7.jpg">
+                <img src="../images/kyiv118ap/7.jpg" class="mb-2 mb-md-4 img-fluid" alt="">
+              </a>
+              
+             
+             
+              
+            </div>
+            <div class="col">
+            
+              <a class="gallery-item" href="../images/kyiv118ap/5.jpg">
+                <img src="../images/kyiv118ap/5.jpg" class=" mb-2 mb-md-4 img-fluid" alt="">
+              </a>
+              <a class="gallery-item" href="../images/kyiv118ap/4.jpg">
+                <img src="../images/kyiv118ap/4.jpg" class=" mb-2 mb-md-4 img-fluid" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="modal fade lightbox-modal" id="lightbox-modal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-fullscreen">
+          <div class="modal-content">
+            <button type="button" class="btn-fullscreen-enlarge" aria-label="Enlarge fullscreen">
+              <svg class="bi"><use href="#enlarge"></use></svg>
+            </button>
+            <button type="button" class="btn-fullscreen-exit d-none" aria-label="Exit fullscreen">
+              <svg class="bi"><use href="#exit"></use></svg>
+            </button>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <div class="modal-body">
+              <div class="lightbox-content">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="footer_hr" style="color: #424b5a;;">
+      <footer
+     class="d-flex flex-wrap justify-content-between align-items-center container;"
+      style="width: 80%; padding-bottom: 20px; margin: 0 auto;"
+    >
+      <div class="mobilecopyright">
+          <span class="brand_name" style="color: #424b5a;;">YULIIA MYKHAILENKO</span>
+      </div>
+      <ul class="nav justify-content-center justify-content-md-end list-unstyled d-flex">
+          <li class="">
+              <a class="text-muted nav-link" href="https://www.facebook.com/profile.php?id=100075905105494&sk=reels_tab">
+                  <img src="../images/icons/SM-Facebook.svg" loading="lazy" width="24px" height="24px" alt="Facebook Icon">
+              </a>
+          </li>
+          <li class="ms-3">
+              <a class="text-muted nav-link" href="https://www.instagram.com/interior_yulia/">
+                  <img src="../images/icons/SM-instagram.svg" loading="lazy" width="24px" height="24px" alt="Instagram Icon">
+              </a>
+          </li>
+      </ul>
+    </footer>
+  <div class="modal fade lightbox-modal" id="lightbox-modal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-fullscreen">
+      <div class="modal-content">
+        <button type="button" class="btn-fullscreen-enlarge" aria-label="Enlarge fullscreen">
+          <svg class="bi"><use href="#enlarge"></use></svg>
+        </button>
+        <button type="button" class="btn-fullscreen-exit d-none" aria-label="Exit fullscreen">
+          <svg class="bi"><use href="#exit"></use></svg>
+        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div class="modal-body">
+          <div class="lightbox-content">
+            <script>const html = document.querySelector('html');
+                html.setAttribute('data-bs-theme', 'dark');
+                
+                document.addEventListener('DOMContentLoaded', () => {
+                  // --- Create LightBox
+                  const galleryGrid = document.querySelector(".gallery-grid");
+                  const links = galleryGrid.querySelectorAll("a");
+                  const imgs = galleryGrid.querySelectorAll("img");
+                  const lightboxModal = document.getElementById("lightbox-modal");
+                  const bsModal = new bootstrap.Modal(lightboxModal);
+                  const modalBody = lightboxModal.querySelector(".lightbox-content");
+                
+                  function createCaption (caption) {
+                    return `<div class="carousel-caption d-none d-md-block">
+                        <h4 class="m-0">${caption}</h4>
+                      </div>`;
+                  }
+                
+                  function createIndicators (img) {
+                    let markup = "", i, len;
+                
+                    const countSlides = links.length;
+                    const parentCol = img.closest('.col');
+                    const curIndex = [...parentCol.parentElement.children].indexOf(parentCol);
+                
+                    for (i = 0, len = countSlides; i < len; i++) {
+                      markup += `
+                        <button type="button" data-bs-target="#lightboxCarousel"
+                          data-bs-slide-to="${i}"
+                          ${i === curIndex ? 'class="active" aria-current="true"' : ''}
+                          aria-label="Slide ${i + 1}">
+                        </button>`;
+                    }
+                
+                    return markup;
+                  }
+                
+                  function createSlides (img) {
+                    let markup = "";
+                    const currentImgSrc = img.closest('.gallery-item').getAttribute("href");
+                
+                    for (const img of imgs) {
+                      const imgSrc = img.closest('.gallery-item').getAttribute("href");
+                      const imgAlt = img.getAttribute("alt");
+                
+                      markup += `
+                        <div class="carousel-item${currentImgSrc === imgSrc ? " active" : ""}">
+                          <img class="d-block img-fluid w-100" src=${imgSrc} alt="${imgAlt}">
+                          ${imgAlt ? createCaption(imgAlt) : ""}
+                        </div>`;
+                    }
+                
+                    return markup;
+                  }
+                
+                  function createCarousel (img) {
+                    const markup = `
+                      <!-- Lightbox Carousel -->
+                      <div id="lightboxCarousel" class="carousel slide carousel-fade" data-bs-ride="true">
+                        <!-- Indicators/dots -->
+                        <div class="carousel-indicators">
+                          ${createIndicators(img)}
+                        </div>
+                        <!-- Wrapper for Slides -->
+                        <div class="carousel-inner justify-content-center mx-auto">
+                          ${createSlides(img)}
+                        </div>
+                        <!-- Controls/icons -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#lightboxCarousel" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#lightboxCarousel" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                      `;
+                
+                    modalBody.innerHTML = markup;
+                  }
+                
+                  for (const link of links) {
+                    link.addEventListener("click", function (e) {
+                      e.preventDefault();
+                      const currentImg = link.querySelector("img");
+                      const lightboxCarousel = document.getElementById("lightboxCarousel");
+                
+                      if (lightboxCarousel) {
+                        const parentCol = link.closest('.col');
+                        const index = [...parentCol.parentElement.children].indexOf(parentCol);
+                
+                        const bsCarousel = new bootstrap.Carousel(lightboxCarousel);
+                        bsCarousel.to(index);
+                      } else {
+                        createCarousel(currentImg);
+                      }
+                
+                      bsModal.show();
+                    });
+                  }
+                
+                  // --- Support Fullscreen
+                  const fsEnlarge = document.querySelector(".btn-fullscreen-enlarge");
+                  const fsExit = document.querySelector(".btn-fullscreen-exit");
+                
+                  function enterFS () {
+                    lightboxModal.requestFullscreen().then({}).catch(err => {
+                      alert(`Error attempting to enable full-screen mode: ${err.message} (${err.name})`);
+                    });
+                    fsEnlarge.classList.toggle("d-none");
+                    fsExit.classList.toggle("d-none");
+                  }
+                
+                  function exitFS () {
+                    document.exitFullscreen();
+                    fsExit.classList.toggle("d-none");
+                    fsEnlarge.classList.toggle("d-none");
+                  }
+                
+                  fsEnlarge.addEventListener("click", (e) => {
+                    e.preventDefault();
+                    enterFS();
+                  });
+                
+                  fsExit.addEventListener("click", (e) => {
+                    e.preventDefault();
+                    exitFS();
+                  });
+                })
+                </script>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   </body>
 </html>
