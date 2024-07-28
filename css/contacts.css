@@ -1,10 +1,10 @@
-.baner {
-  background-image: url("../images/kontakt_big.png");
+.back-image-kontakty {
+  background-image: url("../images/BANER-KONTAKTY.png");
 }
 
 @media screen and (max-width: 450px) {
-  .baner {
-    background-image: url("../images/kontakt_medium.png");
+  .back-image-kontakty {
+    background-image: url("../images/BANER-KONTAKTY.png");
   }
 }
 
@@ -265,7 +265,129 @@ li {
     margin: 0;
   }
 }
+.main-kontakt {
+  text-align: center;
+  font-family: Arsenal;
 
+  padding-top: 150px;
+  font-size: 50px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 62.7px;
+  text-align: center;
+  color: #ffffff;
+}
+@media screen and (max-width: 992px) {
+  .main-kontakt {
+    text-align: center;
+    font-family: Arsenal;
+
+    padding-top: 150px;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 62.7px;
+    text-align: center;
+    color: #ffffff;
+  }
+  .kontakt > li {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Arsenal;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27.59px;
+    letter-spacing: 1px;
+    text-align: center;
+    list-style: none;
+    color: #ffffff;
+  }
+}
+
+.about-designer-kontakt {
+  font-family: Arsenal;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 27.59px;
+  text-align: left;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 992px) {
+  .about-designer-kontakt {
+    font-family: Arsenal;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27.59px;
+    text-align: left;
+    color: #ffffff;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .about-designer-kontakt {
+    font-family: Arsenal;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 27.59px;
+    text-align: left;
+    color: #ffffff;
+  }
+}
+
+.kontakt > li {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Arsenal;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 27.59px;
+  letter-spacing: 1px;
+  text-align: center;
+  list-style: none;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 450px) {
+  .main-kontakt {
+    text-align: center;
+    font-family: Arsenal;
+    padding-top: 150px;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 62.7px;
+    text-align: center;
+    color: #ffffff;
+  }
+  .kontakt > li {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Arsenal;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 27.59px;
+    letter-spacing: 1px;
+    text-align: center;
+    list-style: none;
+    color: #ffffff;
+  }
+  .kontakt > li > svg {
+    visibility: hidden;
+  }
+}
+
+.container-kontakt {
+  display: flex;
+  flex-direction: column;
+  height: 25vh;
+}
 .card img {
   max-width: 100%;
   height: auto;
