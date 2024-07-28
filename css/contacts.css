@@ -333,6 +333,19 @@ input::placeholder {
   color: #ffffff;
 }
 
+.flex-direction-kontakt {
+  display: flex;
+  flex-direction: row; /* Note: it's 'flex-direction', not 'direction' */
+  justify-content: space-between;
+  margin-top: 5%;
+}
+
+@media screen and (max-width: 450px) {
+  .flex-direction-kontakt {
+    flex-direction: column;
+  }
+}
+
 @media screen and (max-width: 992px) {
   .about-designer-kontakt {
     font-family: Arsenal;
@@ -363,7 +376,6 @@ input::placeholder {
   font-family: Arsenal;
   font-size: 22px;
   font-weight: 400;
-
   letter-spacing: 1px;
   text-align: center;
   list-style: none;
@@ -397,7 +409,8 @@ input::placeholder {
     color: #ffffff;
   }
   .kontakt > li > svg {
-    visibility: hidden;
+    width: 8%;
+    height: fit-content;
   }
 }
 
