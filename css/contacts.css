@@ -249,12 +249,24 @@ li {
   padding: 10px;
   margin: 10px;
 }
+textarea::placeholder {
+  font-size: 16px;
+}
+input::placeholder {
+  font-size: 16px;
+}
 
 @media screen and (max-width: 992px) {
   .card {
     border: none !important;
     padding: 0;
     margin: 0;
+  }
+  textarea::placeholder {
+    font-size: 12px;
+  }
+  input::placeholder {
+    font-size: 12px;
   }
 }
 
@@ -263,6 +275,12 @@ li {
     border: none !important;
     padding: 0;
     margin: 0;
+  }
+  textarea::placeholder {
+    font-size: 10px;
+  }
+  input::placeholder {
+    font-size: 10px;
   }
 }
 .main-kontakt {
@@ -423,6 +441,16 @@ li {
   border: 1px solid #ccc;
   border-radius: 5px;
 }
+@media screen and (max-width: 450px) {
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 2px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+}
+
 button {
   background: none;
   border: none;
