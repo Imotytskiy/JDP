@@ -159,9 +159,9 @@ To zaprasham...
       <div class="container flex-direction-kontakt">
         <div> <span  class="about-designer-kontakt">
           Yuliia Mykhailenko Interior Design to pracownia projektowa specjalizująca sie w tworzeniu
-wyjątkowych wnętrz, restauracje itp. dopasowanych do potrzeb
-swoich klientów. <br> <br>
-Realizujemy projekty wnętrz we Wrocławiu, Warszawie i okolicach oraz w całym świecie.</span>
+wyjątkowych wnętrz. Domy, mieszkania, restauracje, biura i inne miejsca, dopasowane do potrzeb klientów.
+ <br> <br>
+ Realizujemy projekty wnętrz na całym świecie.</span>
         </div>
         <div>
              <ul class="kontakt container-kontakt">
@@ -270,40 +270,36 @@ Realizujemy projekty wnętrz we Wrocławiu, Warszawie i okolicach oraz w całym 
       </div>
 
       <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
-      <script>
-        (function () {
-          emailjs.init("X6l0xy74bqK-UCqgx"); // Your public key (User ID)
-        })();
+<script>
+  (function () {
+    emailjs.init("NhhdW_pH_itxT81tQ"); // Public Key
+  })();
 
-        document
-          .getElementById("contactForm")
-          .addEventListener("submit", function (event) {
-            event.preventDefault();
+  document.getElementById("contactForm").addEventListener("submit", function (event) {
+    event.preventDefault();
 
-            emailjs.sendForm("service_08fb4gr", "template_us7p0jp", this).then(
-              function (response) {
-                document.getElementById("responseMessage").innerText =
-                  "SUCCESS!";
-                console.log("SUCCESS!", response.status, response.text);
-                disableForm();
-              },
-              function (error) {
-                document.getElementById("responseMessage").innerText =
-                  "FAILED...";
-                console.error("FAILED...", error);
-              }
-            );
-          });
+    emailjs.sendForm("service_rwx6nmx", "template_a8tlh7i", this).then(
+      function (response) {
+        document.getElementById("responseMessage").innerText = "SUCCESS!";
+        console.log("SUCCESS!", response.status, response.text);
+        disableForm();
+      },
+      function (error) {
+        document.getElementById("responseMessage").innerText = "FAILED...";
+        console.error("FAILED...", error);
+      }
+    );
+  });
 
-        function disableForm() {
-          const form = document.getElementById("contactForm");
-          const elements = form.elements;
+  function disableForm() {
+    const form = document.getElementById("contactForm");
+    const elements = form.elements;
 
-          for (let i = 0; i < elements.length; i++) {
-            elements[i].disabled = true;
-          }
-        }
-      </script>
+    for (let i = 0; i < elements.length; i++) {
+      elements[i].disabled = true;
+    }
+  }
+</script>
       <hr class="footer_hr" />
       <footer
         class="d-flex flex-wrap justify-content-between align-items-center container;"

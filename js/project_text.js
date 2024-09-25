@@ -3,10 +3,11 @@ const project_text = {
     project_marbella: {
       description: {
         description_marbella_1:
-          "Bardzo przytulna restauracja @artbakery_wine z piekarnią, szalonymi autorskimi deserami szefa kuchni, winem i przyjemną atmosferą w Marbelli, Hiszpanii.",
-        description_marbella_2:
-          "Projekt został zrealizowany zdalnie w najkrótszym możliwym czasie, z uwzględnieniem wszystkich życzeń klientów i specyfiki lokalnego rynku materiałów.",
-        description_marbella_3: "Projekt 2022",
+          "Chciałbym wyrazić ogromną wdzięczność i podkreślić profesjonalizm Julii w stworzeniu projektu wnętrza restauracji-cukierni. Nawet w tak trudnych warunkach, jak praca zdalna, wszystkie zadania zostały wykonane na czas. Efekt przeszedł nasze oczekiwania — wnętrze jest stylowe, przytulne i w pełni odpowiada naszej wizji.",
+        // description_marbella_2:
+        // "Projekt został zrealizowany zdalnie w najkrótszym możliwym czasie, z uwzględnieniem wszystkich życzeń klientów i specyfiki lokalnego rynku materiałów.",
+        description_marbella_3:
+          "Pan Sergij, projekt Art bakery & Wine, Malaga, Hiszpania",
       },
     },
     project_kyiv81ap: {
@@ -77,7 +78,7 @@ const project_text = {
         description_oferta_1:
           "Gotowy projekt aranżacji poprzedzony jest dokładną analizą oczekiwań i potrzeb klientów.",
         description_oferta_2:
-          "Jest to jeden z kluczowych etapów procesu projektowego ponieważ to klienci będą spędzać czas w stworzonym dla nich wnętrzu.",
+          "Jest to jeden z kluczowych etapów procesu projektowego, ponieważ to klienci będą spędzać czas w stworzonym dla nich wnętrzu.",
         description_oferta_3:
           "Trendy przemijają, ale funkcjonalność, piękno i przytulność są wieczne.",
       },
