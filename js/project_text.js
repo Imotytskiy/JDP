@@ -58,10 +58,10 @@ const project_text = {
     project_warsaw: {
       description: {
         description_warsaw_1:
-          "A cozy restaurant @artbakery_wine with a bakery, unique chef's desserts, wine, and a pleasant atmosphere in Warsaw, Poland.",
+          "Wnętrze domu położonego w lesie to nowoczesny styl z akcentem na przytulność. Jest utrzymane w jasnych, neutralnych barwach, co tworzy wrażenie lekkości i przestronności. Dominują odcienie beżu, jasnej szarości i bieli, które nadają wnętrzu spokój i harmonię. Wykorzystanie naturalnych materiałów, takich jak drewno i tkaniny z motywami przyrodniczymi podkreśla związek z otaczającą przyrodą. Kominek – stanowi centralny element wnętrza, a jego wykończenie w naturalnych, spokojnych odcieniach  dodaje ciepła i przytulności.",
         description_warsaw_2:
-          "The project was completed remotely, efficiently meeting all client demands and local market specifics.",
-        description_warsaw_3: "Project 2024",
+          "Wnętrze łączy elegancki minimalizm z ciepłymi, przytulnymi elementami, co czyni je idealnym do domu w lesie.",
+        description_warsaw_3: "Projekt 2023-2024, Warszawa, Poland",
       },
     },
     project_contacts: {
@@ -70,7 +70,7 @@ const project_text = {
           "A cozy restaurant @artbakery_wine with a bakery, unique chef's desserts, wine, and a pleasant atmosphere in Warsaw, Poland.",
         description_contacts_2:
           "The project was completed remotely, efficiently meeting all client demands and local market specifics.",
-        description_contacts_3: "Project 2024",
+        description_contacts_3: "Projekt 2023-2024, Warszawa, Poland",
       },
     },
     project_oferta: {
