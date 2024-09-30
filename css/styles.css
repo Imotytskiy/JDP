@@ -627,3 +627,29 @@ input.check-toggle-round-flat:checked + label:after {
     margin-bottom: 0;
   }
 }
+
+.project-description p {
+  font-family: Arsenal;
+  font-size: 22px;
+  font-weight: 400;
+  text-align: left;
+}
+
+/* For tablets and medium screens */
+@media (max-width: 1024px) {
+  .project-description p {
+    font-size: 18px;
+  }
+}
+
+/* For mobile screens */
+@media (max-width: 768px) {
+  .project-description p {
+    font-size: 12px;
+  }
+}
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
