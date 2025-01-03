@@ -656,10 +656,9 @@ input.check-toggle-round-flat:checked + label:after {
 
 .cookie-consent {
   position: fixed;
-  top: 85%; /* Adjust top to 20% */
   left: 0;
   width: 100%;
-  height: 80%; /* Adjust height to ensure it fits within the viewport */
+  /* height: 80%; Adjust height to ensure it fits within the viewport */
   background-color: rgba(
     255,
     255,
