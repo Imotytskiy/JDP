@@ -86,7 +86,7 @@
           <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-4 gallery-grid">
             <div class="col">
               <a class="gallery-item" href="../images/warsaw/8.jpg">
-                <img src="../images/warsaw/8.jpg" class="mb-2 mb-md-4 img-fluid" alt="">
+                <img id="mobilestart" src="../images/warsaw/8.jpg" class="mb-2 mb-md-4 img-fluid" alt="">
               </a>
               <a class="gallery-item" href="../images/warsaw/3.jpg">
                 <img src="../images/warsaw/3.jpg" class="mb-2 mb-md-4 img-fluid" alt="">
@@ -185,7 +185,7 @@
         </button>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         <div class="modal-body">
-          <div class="lightbox-content">
+          < class="lightbox-content">
             <script>const html = document.querySelector('html');
                 html.setAttribute('data-bs-theme', 'dark');
                 
@@ -317,6 +317,26 @@
                   });
                 })
                 </script>
+               <script>
+                window.addEventListener('load', function() {
+                  // Перевірка, чи на мобільному пристрої
+                  const isMobile = /Mobi|Android/i.test(navigator.userAgent);
+              
+                  // Якщо користувач на мобільному пристрої
+                  if (isMobile) {
+                    // Знаходимо елемент <img> з id "mobilestart"
+                    const imageElement = document.getElementById('mobilestart');
+              
+                    // Перевіряємо, чи елемент знайдений
+                    if (imageElement) {
+                      // Виконуємо клік на елементі
+                      imageElement.click();
+                    } else {
+                      console.error('Елемент <img> з id "mobilestart" не знайдено!');
+                    }
+                  }
+                });
+              </script>
           </div>
         </div>
       </div>
