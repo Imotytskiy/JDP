@@ -16,6 +16,7 @@
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
       <script src="../js/project_text.js" defer></script>
+      <script src="../js/mobilecarusel.js" defer></script>
   </head>
   <body id="project-container" data-project-id="project_warsaw">
     <header class="fixed container" id="section1">
@@ -317,26 +318,7 @@
                   });
                 })
                 </script>
-               <script>
-                window.addEventListener('load', function() {
-                  // Перевірка, чи на мобільному пристрої
-                  const isMobile = /Mobi|Android/i.test(navigator.userAgent);
-              
-                  // Якщо користувач на мобільному пристрої
-                  if (isMobile) {
-                    // Знаходимо елемент <img> з id "mobilestart"
-                    const imageElement = document.getElementById('mobilestart');
-              
-                    // Перевіряємо, чи елемент знайдений
-                    if (imageElement) {
-                      // Виконуємо клік на елементі
-                      imageElement.click();
-                    } else {
-                      console.error('Елемент <img> з id "mobilestart" не знайдено!');
-                    }
-                  }
-                });
-              </script>
+               
           </div>
         </div>
       </div>
