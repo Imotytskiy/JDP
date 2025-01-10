@@ -504,3 +504,46 @@ button:disabled {
   background-position: center; /* Centers the image */
   background-repeat: no-repeat; /* Prevents the image from repeating */
 }
+
+/* General styling for the form group */
+.form-group-box {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+}
+
+/* Styling the label */
+.form-group-box label {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #dadada;
+  line-height: 1.5;
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+/* Styling the checkbox */
+.form-group-box input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  accent-color: #007bff; /* Adjust this color to match your branding */
+}
+
+/* Add some hover effect for the label */
+.form-group-box label:hover {
+  color: #007bff;
+}
+
+/* Optional: Responsive design for smaller screens */
+@media (max-width: 600px) {
+  .form-group-box {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .form-group-box label {
+    margin-left: 0;
+    margin-top: 8px;
+  }
+}

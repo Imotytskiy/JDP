@@ -653,3 +653,52 @@ input.check-toggle-round-flat:checked + label:after {
   margin-left: auto;
   margin-right: auto;
 }
+
+.cookie-consent {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  /* height: 80%; Adjust height to ensure it fits within the viewport */
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.9
+  ); /* Slightly transparent background */
+  color: black;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  z-index: 1000;
+  display: none; /* Initially hidden */
+}
+
+.cookie-consent p {
+  margin: 0 0 10px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.cookie-consent a {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+.cookie-consent a:hover {
+  text-decoration: none;
+}
+
+.cookie-consent button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.cookie-consent button:hover {
+  background-color: #444;
+}
