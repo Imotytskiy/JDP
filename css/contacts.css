@@ -360,7 +360,7 @@ input::placeholder {
 @media screen and (max-width: 450px) {
   .about-designer-kontakt {
     font-family: Arsenal;
-    font-size: 10px;
+    font-size: 14px;
     font-weight: 400;
 
     text-align: left;
@@ -400,7 +400,7 @@ input::placeholder {
     align-items: center;
     justify-content: space-between;
     font-family: Arsenal;
-    font-size: 10px;
+    font-size: 14px;
     font-weight: 400;
 
     letter-spacing: 1px;
@@ -417,7 +417,7 @@ input::placeholder {
 .container-kontakt {
   display: flex;
   flex-direction: column;
-  height: 25vh;
+  height: 20vh;
 }
 .card img {
   max-width: 100%;
@@ -515,7 +515,7 @@ button:disabled {
 /* Styling the label */
 .form-group-box label {
   font-family: Arial, sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   color: #dadada;
   line-height: 1.5;
   margin-left: 8px;
@@ -524,8 +524,8 @@ button:disabled {
 
 /* Styling the checkbox */
 .form-group-box input[type="checkbox"] {
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
   cursor: pointer;
   accent-color: #007bff; /* Adjust this color to match your branding */
 }
