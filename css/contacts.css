@@ -1,19 +1,20 @@
 .back-image-kontakty {
   background-image: url("../images/BANER-KONTAKTY.png");
-  background-size: cover; /* Розтягує фон на всю область */
-  background-position: center; /* Центрує зображення */
-  background-repeat: no-repeat; /* Забороняє повторення */
-  width: 100%; /* На всю ширину */
-  height: 100vh; /* Задає висоту на весь екран */
+  background-size: cover; /* Заповнює всю область */
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 100vh; /* Мінімальна висота на весь екран */
 }
 
-/* Для мобільних пристроїв */
+/* Для iPhone та мобільних пристроїв */
 @media screen and (max-width: 450px) {
   .back-image-kontakty {
     background-image: url("../images/BANER-KONTAKTY.png");
-    background-size: contain; /* Підганяє зображення під розмір */
-    background-position: top center;
-    height: auto; /* Автоматична висота */
+    background-size: cover; /* Забезпечує покриття всієї області */
+    background-position: center;
+    background-attachment: fixed; /* Фіксує фон при скролі */
+    min-height: 100vh;
   }
 }
 .centered {
