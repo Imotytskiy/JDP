@@ -21,6 +21,7 @@
 }
 @media (max-width: 768px) {
   .head-photo {
+    margin-top: 80px; /* Вертикальне вирівнювання */
     position: relative;
     background-size: cover;
     background-position: center;
@@ -33,6 +34,7 @@
 
 @media (max-width: 450px) {
   .head-photo {
+    margin-top: 70px; /* Вертикальне вирівнювання */
     position: relative;
     background-size: cover;
     background-position: center;
