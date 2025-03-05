@@ -1,0 +1,12 @@
+.baner {
+  background-image: url("../images/kontakt_big.png");
+  background-size: cover; /* Розтягує зображення на всю область */
+  background-position: center; /* Центрує зображення */
+  background-repeat: no-repeat; /* Вимикає повторення */
+  width: 100%; /* На всю ширину екрану */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
