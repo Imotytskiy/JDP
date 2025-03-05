@@ -1,0 +1,20 @@
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 колонки для великих екранів */
+  gap: 20px; /* Відступи між зображеннями */
+  margin-bottom: 20px; /* Відступ між рядами */
+}
+
+/* Для маленьких екранів – одна колонка */
+@media screen and (max-width: 768px) {
+  .image-grid {
+    grid-template-columns: 1fr; /* 1 колонка на мобільних пристроях */
+  }
+}
+
+.image-grid img {
+  width: 100%; /* Адаптивна ширина */
+  height: auto; /* Автоматична висота */
+  display: block;
+  border-radius: 2px; /* Округлені кути для кращого вигляду */
+}
