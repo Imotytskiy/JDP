@@ -1,7 +1,7 @@
 .back-image-kontakty {
   background-image: url("../images/BANER-KONTAKTY.png");
   background-size: cover; /* Заповнює всю область */
-  background-position: center;
+  background-position: center center; /* Центрує фон */
   background-repeat: no-repeat;
   width: 100%;
   min-height: 100vh; /* Мінімальна висота на весь екран */
@@ -12,7 +12,7 @@
   .back-image-kontakty {
     background-image: url("../images/BANER-KONTAKTY.png");
     background-size: cover; /* Забезпечує покриття всієї області */
-    background-position: center;
+    background-position: center center; /* Центрує фон */
     background-attachment: fixed; /* Фіксує фон при скролі */
     min-height: 100vh;
   }
